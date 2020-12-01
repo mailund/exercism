@@ -32,7 +32,7 @@ two_fer:
     ; save the name for later...
     cmp rdi, 0
     jne .save_name
-    lea rdi, [you]
+    lea rdi, you
   .save_name:
     ; Put the name in r12. Called functions are responsible
     ; for preserving rbp, rbx, and r12-r15, so we can safely
@@ -41,7 +41,7 @@ two_fer:
 
     ; the output buffer is in rsi, so copy into it
     ; from rdi
-    lea rdi, [one_for_prefix]
+    lea rdi, one_for_prefix
     call copy
 
     ; copy the name...
@@ -50,7 +50,7 @@ two_fer:
     call copy
 
     ; copy the suffix
-    lea rdi, [one_for_suffix]
+    lea rdi, one_for_suffix
     add rsi, rax ; continue copying from last byte...
     call copy
 
