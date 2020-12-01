@@ -23,24 +23,21 @@ copy:
     mov byte[rsi + rax], cl
     inc rax
     jmp .copy_loop
-    
+
   .done:
     ret
 
 global two_fer
 two_fer:
-    push rbp
-    mov rbp, rsp
-
     ; save the name for later...
     cmp rdi, 0
     jne .save_name
     lea rdi, [you]
   .save_name:
-    ; Put the name on the stack so it is safe to
-    ; call a function, so we have the pointer later.
-    mov [rbp - 8], rdi
-    sub rsp, 8
+    ; Put the name in r12. Called functions are responsible
+    ; for preserving rbp, rbx, and r12-r15, so we can safely
+    ; use r12
+    mov r12, rdi
 
     ; the output buffer is in rsi, so copy into it
     ; from rdi
@@ -48,7 +45,7 @@ two_fer:
     call copy
 
     ; copy the name...
-    mov rdi, [rbp - 8]
+    mov rdi, r12
     add rsi, rax ; continue copying from last byte...
     call copy
 
@@ -59,7 +56,4 @@ two_fer:
 
     mov byte[rsi + rax], 0 ; zero terminate
 
-    ; clean up and return...
-    add rsp, 8
-    pop rbp
     ret
