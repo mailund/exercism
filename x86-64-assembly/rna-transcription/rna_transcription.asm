@@ -5,41 +5,40 @@ section .text
 ; pointed to by rsi
 global to_rna
 to_rna:
-    ; start at index -1, because we increment rax at the
-    ; beginning of each loop iteration. It makes the control
-    ; flow easier, because we can simply compute a jump per
-    ; character, emit the translated character, and then jump
-    ; back to the beginning of the loop.
-    mov rax, -1
+    xchg rdi, rsi ; flip these to work with lodsb/stosb
+    jmp .read_input
 
-  .translate_loop:
-    inc rax
-    mov cl, byte[rdi + rax]
-    cmp cl, 0
-    je .done
+  .write_output:
+    stosb                   ; out[rsi++] = al
 
-    cmp cl, 'C'
+  .read_input:
+    lodsb                   ; al := x[rdi++]
+    test al, al
+    jz .done
+
+    ; translate...
+    cmp al, 'C'
     je .C
-    cmp cl, 'T'
+    cmp al, 'T'
     je .T
-    cmp cl, 'A'
+    cmp al, 'A'
     je .A
     ; If it isn't one of those, assume that it is G
 
   .G: ; G -> C
-    mov byte[rsi + rax], 'C'
-    jmp .translate_loop
+    mov al, 'C'
+    jmp .write_output
   .C: ; C -> G
-    mov byte[rsi + rax], 'G'
-    jmp .translate_loop
+    mov al, 'G'
+    jmp .write_output
   .T: ; T -> A
-    mov byte[rsi + rax], 'A'
-    jmp .translate_loop
+    mov al, 'A'
+    jmp .write_output
   .A: ; A -> U
-    mov byte[rsi + rax], 'U'
-    jmp .translate_loop
+    mov al, 'U'
+    jmp .write_output
 
   .done:
     ; zero-terminate the output buffer and return
-    mov byte[rsi + rax], 0
+    stosb
     ret
