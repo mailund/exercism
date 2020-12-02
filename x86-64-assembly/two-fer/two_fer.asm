@@ -23,7 +23,7 @@ copy:
     ; get the next character, and finish if it is zero
     mov cl, byte[r8 + rax]
     cmp cl, 0
-    jz .done                   ; if zero, we are done...
+    je .done                   ; if zero, we are done...
     mov byte[rsi + rax], cl    ; otherwise, write it to output
     inc rax
     jmp .copy_loop
@@ -37,7 +37,7 @@ two_fer:
     ; If the name is NULL we need to update it
     ; to "you"
     cmp rdi, 0
-    jnz .copy_prefix
+    jne .copy_prefix
     lea rdi, you
 
   .copy_prefix:
