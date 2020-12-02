@@ -6,54 +6,57 @@ one_for_suffix: db ", one for me.", 0
 you:            db "you", 0
 
 section .text
+; I use this as a helper "function", although I
+; simply execute it and do not call it with a propper
+; 'call' and with the argument interface.
+; The function will copy a zero-terminated string from one
+; buffer to another. The destination address is in rsi.
+; That way I can just use the destination from the two_fer
+; function plus the current counter.
+; The source is in r8 and the return instruction is in r9.
+; When done, rax has the number of bytes copied, so we can
+; use it to update the buffer for the next copy
 copy:
-    ; This function will copy a zero-terminated string from one
-    ; buffer to another.
-    ; Input are in rdi & rsi, we copy rsi <- rdi, we return length in rax.
-    ; We copy in this direction because it makes it easier to work with
-    ; the two_fer() function, but it is opposite the direction for
-    ; strcpy().
-    mov rax, 0
+    xor rax, rax           ; FIXME: why is this better for setting
+                           ; the register to zero?
   .copy_loop:
-    cmp byte[rdi + rax], 0 ; do we point to zero?
-    je .done               ; then we are done
-
-    ; FIXME: I don't know if I can move a byte smarter...
-    mov cl, byte[rdi + rax]
-    mov byte[rsi + rax], cl
+    ; get the next character, and finish if it is zero
+    mov cl, byte[r8 + rax]
+    cmp cl, 0
+    jz .done                   ; if zero, we are done...
+    mov byte[rsi + rax], cl    ; otherwise, write it to output
     inc rax
     jmp .copy_loop
-
   .done:
-    ret
+    jmp r9
 
 global two_fer
 two_fer:
-    ; save the name for later...
+    ; Arguments: name is in rdi, out buffer in rsi...
+
+    ; If the name is NULL we need to update it
+    ; to "you"
     cmp rdi, 0
-    jne .save_name
+    jnz .copy_prefix
     lea rdi, you
-  .save_name:
-    ; Put the name in r12. Called functions are responsible
-    ; for preserving rbp, rbx, and r12-r15, so we can safely
-    ; use r12
-    mov r12, rdi
 
-    ; the output buffer is in rsi, so copy into it
-    ; from rdi
-    lea rdi, one_for_prefix
-    call copy
+  .copy_prefix:
+    lea r8, one_for_prefix  ; copy from...
+    lea r9, .copy_name      ; continue from...
+    jmp copy                ; go!
 
-    ; copy the name...
-    mov rdi, r12
-    add rsi, rax ; continue copying from last byte...
-    call copy
+  .copy_name:
+    add rsi, rax            ; continue copying from last byte...
+    mov r8, rdi
+    lea r9, .copy_suffix
+    jmp copy
 
-    ; copy the suffix
-    lea rdi, one_for_suffix
-    add rsi, rax ; continue copying from last byte...
-    call copy
+  .copy_suffix:
+    add rsi, rax             ; continue copying from last byte...
+    lea r8, one_for_suffix
+    lea r9, .done
+    jmp copy
 
-    mov byte[rsi + rax], 0 ; zero terminate
-
+  .done:
+    mov byte[rsi + rax], 0 ; zero terminate output
     ret
