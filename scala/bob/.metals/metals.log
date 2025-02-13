@@ -1,0 +1,672 @@
+2025.02.13 10:29:02 INFO  Started: Metals version 1.5.1 in folders '/Users/mailund/Code/exercism/scala/bob' for client Visual Studio Code 1.97.1.[0m
+Feb 13, 2025 10:29:03 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Feb 13, 2025 10:29:04 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2025.02.13 10:29:05 INFO  no build target found for /Users/mailund/Code/exercism/scala/bob/src/main/scala/Bob.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.02.13 10:29:10 INFO  running '/Users/mailund/Library/Application Support/Coursier/bin/sbt -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+2025.02.13 10:29:10 WARN  no build target for: /Users/mailund/Code/exercism/scala/bob/project/project/metals.sbt[0m
+2025.02.13 10:29:10 WARN  no build target for: /Users/mailund/Code/exercism/scala/bob/project/metals.sbt[0m
+2025.02.13 10:29:10 INFO  no build target found for /Users/mailund/Code/exercism/scala/bob/project/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.02.13 10:29:11 ERROR Feb 13, 2025 10:29:11 AM org.jline.utils.Log logr[0m
+2025.02.13 10:29:11 ERROR WARNING: Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)[0m
+2025.02.13 10:29:11 INFO  no build target found for /Users/mailund/Code/exercism/scala/bob/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.02.13 10:29:11 INFO  [info] welcome to sbt 1.10.1 (Homebrew Java 23.0.2)[0m
+2025.02.13 10:29:11 INFO  [info] loading settings for project bob-build-build from metals.sbt ...[0m
+2025.02.13 10:29:12 INFO  [info] loading project definition from /Users/mailund/Code/exercism/scala/bob/project/project[0m
+2025.02.13 10:29:12 INFO  [0m
+2025.02.13 10:29:12 INFO    | => bob-build-build / update 0s[0m
+2025.02.13 10:29:12 INFO  [info] loading settings for project bob-build from metals.sbt ...[0m
+2025.02.13 10:29:12 INFO  [info] loading project definition from /Users/mailund/Code/exercism/scala/bob/project[0m
+2025.02.13 10:29:12 INFO  [0m
+2025.02.13 10:29:12 INFO    | => bob-build / updateSbtClassifiers 0s[0m
+2025.02.13 10:29:14 INFO  no build target found for /Users/mailund/Code/exercism/scala/bob/src/test/scala/BobTest.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.02.13 10:29:14 INFO  [success] Generated .bloop/bob-build.json[0m
+2025.02.13 10:29:14 INFO  [success] Total time: 1 s, completed 13 Feb 2025, 10.29.14[0m
+2025.02.13 10:29:14 INFO  [info] loading settings for project bob from build.sbt ...[0m
+2025.02.13 10:29:14 INFO  [info] set current project to bob (in build file:/Users/mailund/Code/exercism/scala/bob/)[0m
+2025.02.13 10:29:14 INFO  [0m
+2025.02.13 10:29:14 INFO    | => bob / update 0s[0m
+2025.02.13 10:29:14 INFO  [success] Generated .bloop/bob-test.json[0m
+2025.02.13 10:29:14 INFO  [success] Generated .bloop/bob.json[0m
+2025.02.13 10:29:14 INFO  [success] Total time: 0 s, completed 13 Feb 2025, 10.29.15[0m
+2025.02.13 10:29:14 INFO  [0m
+2025.02.13 10:29:15 INFO  time: ran 'sbt bloopInstall' in 5.21s[0m
+2025.02.13 10:29:15 INFO  Attempting to connect to the build server...[0m
+2025.02.13 10:29:15 INFO  Found a Bloop server running[0m
+2025.02.13 10:29:15 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/bob/.metals/bsp.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2025.02.13 10:29:15 INFO  Attempting to connect to the build server...[0m
+2025.02.13 10:29:15 INFO  Found a Bloop server running[0m
+2025.02.13 10:29:15 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/bob/project/.metals/bsp.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2025.02.13 10:29:15 INFO  time: Connected to build server in 0.29s[0m
+2025.02.13 10:29:15 INFO  Connected to Build server: Bloop v2.0.8[0m
+2025.02.13 10:29:16 INFO  running doctor check[0m
+2025.02.13 10:29:16 INFO  java targets: bob, bob-build, bob-test[0m
+2025.02.13 10:29:20 INFO  time: indexed workspace in 4.79s[0m
+2025.02.13 10:29:20 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:29:20 INFO  compiling bob (1 scala source)[0m
+2025.02.13 10:29:20 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:29:20 INFO  time: compiled bob in 0.15s[0m
+2025.02.13 10:29:20 INFO  compiling bob-test (1 scala source)[0m
+2025.02.13 10:29:20 INFO  time: compiled bob-test in 0.41s[0m
+2025.02.13 10:29:20 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:29:20 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:29:20 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+Feb 13, 2025 10:29:29 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 13, 2025 10:29:37 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+2025.02.13 10:29:37 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:29:43 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:29:43 INFO  compiling bob (1 scala source)[0m
+2025.02.13 10:29:43 INFO  time: compiled bob in 0.11s[0m
+2025.02.13 10:29:45 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:29:45 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:29:45 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:29:45 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:29:45 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/bob/.metals/dap-server.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/dap-server.trace.json[0m
+2025.02.13 10:29:45 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/bob/.metals/dap-client.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/dap-client.trace.json[0m
+2025.02.13 10:29:45 INFO  Starting debug proxy for [BobTest()][0m
+2025.02.13 10:29:45 INFO  Initialized Scala 3 decoder in 0 milliseconds[0m
+2025.02.13 10:29:45 INFO  Trying to attach to remote debuggee VM localhost:60281 .[0m
+2025.02.13 10:29:45 INFO  Attaching to debuggee VM succeeded.[0m
+2025.02.13 10:29:46 INFO  Canceling debug proxy for [BobTest()][0m
+2025.02.13 10:29:45 INFO  Closing debug server tcp://0.0.0.0:60277[0m
+2025.02.13 10:30:34 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:30:34 INFO  compiling bob (1 scala source)[0m
+2025.02.13 10:30:34 INFO  time: compiled bob in 0.18s[0m
+Feb 13, 2025 10:30:46 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 13, 2025 10:31:20 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 13, 2025 10:31:43 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 13, 2025 10:31:50 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 13, 2025 10:31:51 AM scala.meta.internal.metals.StdReporter $anonfun$create$1
+SEVERE: empty definition using pc, found symbol in pc: `<none>`. (full report at: /Users/mailund/Code/exercism/scala/bob/.metals/.reports/metals-full/2025-02-13/r_empty-definition_(bob)_10-31-51-071.md)
+2025.02.13 10:31:53 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:31:53 INFO  compiling bob (1 scala source)[0m
+2025.02.13 10:31:53 INFO  time: compiled bob in 0.18s[0m
+2025.02.13 10:31:58 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:31:58 INFO  compiling bob (1 scala source)[0m
+2025.02.13 10:31:58 INFO  time: compiled bob in 0.15s[0m
+2025.02.13 10:32:12 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:32:12 INFO  compiling bob (1 scala source)[0m
+2025.02.13 10:32:12 INFO  time: compiled bob in 0.14s[0m
+2025.02.13 10:32:55 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:32:55 INFO  compiling bob (1 scala source)[0m
+2025.02.13 10:32:55 INFO  time: compiled bob in 0.15s[0m
+2025.02.13 10:33:03 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:33:03 INFO  compiling bob (1 scala source)[0m
+2025.02.13 10:33:03 INFO  time: compiled bob in 0.14s[0m
+Feb 13, 2025 10:33:08 AM scala.meta.internal.metals.StdReporter $anonfun$create$1
+SEVERE: empty definition using pc, found symbol in pc: `<none>`. (full report at: /Users/mailund/Code/exercism/scala/bob/.metals/.reports/metals-full/2025-02-13/r_empty-definition_(bob)_10-31-51-071.md)
+2025.02.13 10:33:11 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:33:11 INFO  compiling bob (1 scala source)[0m
+2025.02.13 10:33:11 INFO  time: compiled bob in 0.12s[0m
+2025.02.13 10:33:13 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:33:13 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:33:15 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:33:15 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:33:15 INFO  compiling bob-test (1 scala source)[0m
+2025.02.13 10:33:15 INFO  time: compiled bob-test in 0.29s[0m
+2025.02.13 10:33:17 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:33:17 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:33:17 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:33:17 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:33:17 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/bob/.metals/dap-server.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/dap-server.trace.json[0m
+2025.02.13 10:33:17 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/bob/.metals/dap-client.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/dap-client.trace.json[0m
+2025.02.13 10:33:17 INFO  Starting debug proxy for [BobTest(shouting)][0m
+2025.02.13 10:33:17 INFO  Initialized Scala 3 decoder in 0 milliseconds[0m
+2025.02.13 10:33:17 INFO  Trying to attach to remote debuggee VM localhost:60315 .[0m
+2025.02.13 10:33:17 INFO  Attaching to debuggee VM succeeded.[0m
+2025.02.13 10:33:17 INFO  Canceling debug proxy for [BobTest(shouting)][0m
+2025.02.13 10:33:17 INFO  Closing debug server tcp://0.0.0.0:60311[0m
+2025.02.13 10:33:59 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:33:59 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:34:25 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:34:25 INFO  compiling bob (1 scala source)[0m
+2025.02.13 10:34:25 INFO  time: compiled bob in 0.11s[0m
+2025.02.13 10:34:27 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:34:27 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:34:27 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:34:27 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:34:27 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/bob/.metals/dap-server.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/dap-server.trace.json[0m
+2025.02.13 10:34:27 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/bob/.metals/dap-client.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/dap-client.trace.json[0m
+2025.02.13 10:34:27 INFO  Starting debug proxy for [BobTest(shouting)][0m
+2025.02.13 10:34:27 INFO  Initialized Scala 3 decoder in 0 milliseconds[0m
+2025.02.13 10:34:27 INFO  Trying to attach to remote debuggee VM localhost:60333 .[0m
+2025.02.13 10:34:27 INFO  Attaching to debuggee VM succeeded.[0m
+2025.02.13 10:34:27 INFO  Canceling debug proxy for [BobTest(shouting)][0m
+2025.02.13 10:34:27 INFO  Closing debug server tcp://0.0.0.0:60329[0m
+2025.02.13 10:35:01 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:35:01 INFO  compiling bob (1 scala source)[0m
+2025.02.13 10:35:01 INFO  time: compiled bob in 0.11s[0m
+Feb 13, 2025 10:35:47 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 662
+Feb 13, 2025 10:35:47 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 665
+2025.02.13 10:36:03 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:36:03 INFO  compiling bob (1 scala source)[0m
+2025.02.13 10:36:03 INFO  time: compiled bob in 0.1s[0m
+2025.02.13 10:36:14 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:36:14 INFO  compiling bob (1 scala source)[0m
+2025.02.13 10:36:14 INFO  time: compiled bob in 0.11s[0m
+2025.02.13 10:36:19 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:36:19 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:36:19 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:36:19 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:36:19 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/bob/.metals/dap-server.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/dap-server.trace.json[0m
+2025.02.13 10:36:19 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/bob/.metals/dap-client.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/dap-client.trace.json[0m
+2025.02.13 10:36:19 INFO  Starting debug proxy for [BobTest(shouting)][0m
+2025.02.13 10:36:19 INFO  Initialized Scala 3 decoder in 0 milliseconds[0m
+2025.02.13 10:36:19 INFO  Trying to attach to remote debuggee VM localhost:60364 .[0m
+2025.02.13 10:36:19 INFO  Attaching to debuggee VM succeeded.[0m
+2025.02.13 10:36:19 INFO  Canceling debug proxy for [BobTest(shouting)][0m
+2025.02.13 10:36:19 INFO  Closing debug server tcp://0.0.0.0:60360[0m
+2025.02.13 10:36:31 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:36:31 INFO  compiling bob (1 scala source)[0m
+2025.02.13 10:36:31 INFO  time: compiled bob in 0.1s[0m
+2025.02.13 10:36:35 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:36:35 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:36:35 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:36:35 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:36:35 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/bob/.metals/dap-server.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/dap-server.trace.json[0m
+2025.02.13 10:36:35 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/bob/.metals/dap-client.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/dap-client.trace.json[0m
+2025.02.13 10:36:35 INFO  Starting debug proxy for [BobTest(shouting)][0m
+2025.02.13 10:36:35 INFO  Initialized Scala 3 decoder in 1 millisecond[0m
+2025.02.13 10:36:35 INFO  Trying to attach to remote debuggee VM localhost:60375 .[0m
+2025.02.13 10:36:35 INFO  Attaching to debuggee VM succeeded.[0m
+2025.02.13 10:36:35 INFO  Canceling debug proxy for [BobTest(shouting)][0m
+2025.02.13 10:36:35 INFO  Closing debug server tcp://0.0.0.0:60371[0m
+2025.02.13 10:36:43 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:36:43 INFO  compiling bob (1 scala source)[0m
+2025.02.13 10:36:43 INFO  time: compiled bob in 0.1s[0m
+2025.02.13 10:36:45 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:36:45 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:36:45 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:36:45 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:36:45 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/bob/.metals/dap-server.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/dap-server.trace.json[0m
+2025.02.13 10:36:45 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/bob/.metals/dap-client.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/dap-client.trace.json[0m
+2025.02.13 10:36:45 INFO  Starting debug proxy for [BobTest(shouting)][0m
+2025.02.13 10:36:45 INFO  Initialized Scala 3 decoder in 0 milliseconds[0m
+2025.02.13 10:36:45 INFO  Trying to attach to remote debuggee VM localhost:60385 .[0m
+2025.02.13 10:36:45 INFO  Attaching to debuggee VM succeeded.[0m
+2025.02.13 10:36:45 INFO  Canceling debug proxy for [BobTest(shouting)][0m
+2025.02.13 10:36:45 INFO  Closing debug server tcp://0.0.0.0:60381[0m
+2025.02.13 10:36:52 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:36:52 INFO  compiling bob (1 scala source)[0m
+2025.02.13 10:36:52 INFO  time: compiled bob in 97ms[0m
+2025.02.13 10:36:58 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:36:58 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:37:00 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:37:00 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:37:00 INFO  compiling bob-test (1 scala source)[0m
+2025.02.13 10:37:00 INFO  time: compiled bob-test in 0.34s[0m
+2025.02.13 10:37:01 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:37:01 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:37:01 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:37:01 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:37:01 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/bob/.metals/dap-server.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/dap-server.trace.json[0m
+2025.02.13 10:37:01 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/bob/.metals/dap-client.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/dap-client.trace.json[0m
+2025.02.13 10:37:01 INFO  Starting debug proxy for [BobTest(shouting gibberish)][0m
+2025.02.13 10:37:01 INFO  Initialized Scala 3 decoder in 0 milliseconds[0m
+2025.02.13 10:37:01 INFO  Trying to attach to remote debuggee VM localhost:60395 .[0m
+2025.02.13 10:37:01 INFO  Attaching to debuggee VM succeeded.[0m
+2025.02.13 10:37:01 INFO  Canceling debug proxy for [BobTest(shouting gibberish)][0m
+2025.02.13 10:37:01 INFO  Closing debug server tcp://0.0.0.0:60391[0m
+2025.02.13 10:37:13 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:37:13 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:37:13 INFO  compiling bob-test (1 scala source)[0m
+2025.02.13 10:37:13 INFO  time: compiled bob-test in 0.29s[0m
+2025.02.13 10:37:14 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:37:14 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:37:14 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:37:14 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:37:14 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/bob/.metals/dap-server.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/dap-server.trace.json[0m
+2025.02.13 10:37:14 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/bob/.metals/dap-client.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/dap-client.trace.json[0m
+2025.02.13 10:37:15 INFO  Starting debug proxy for [BobTest(asking a question)][0m
+2025.02.13 10:37:14 INFO  Initialized Scala 3 decoder in 0 milliseconds[0m
+2025.02.13 10:37:14 INFO  Trying to attach to remote debuggee VM localhost:60408 .[0m
+2025.02.13 10:37:14 INFO  Attaching to debuggee VM succeeded.[0m
+2025.02.13 10:37:15 INFO  Canceling debug proxy for [BobTest(asking a question)][0m
+2025.02.13 10:37:14 INFO  Closing debug server tcp://0.0.0.0:60404[0m
+2025.02.13 10:37:45 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:37:45 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:37:45 INFO  compiling bob-test (1 scala source)[0m
+2025.02.13 10:37:45 INFO  time: compiled bob-test in 0.33s[0m
+2025.02.13 10:37:46 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:37:46 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:37:46 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:37:46 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:37:46 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/bob/.metals/dap-server.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/dap-server.trace.json[0m
+2025.02.13 10:37:46 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/bob/.metals/dap-client.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/dap-client.trace.json[0m
+2025.02.13 10:37:46 INFO  Starting debug proxy for [BobTest(asking a numeric question)][0m
+2025.02.13 10:37:46 INFO  Initialized Scala 3 decoder in 1 millisecond[0m
+2025.02.13 10:37:46 INFO  Trying to attach to remote debuggee VM localhost:60423 .[0m
+2025.02.13 10:37:46 INFO  Attaching to debuggee VM succeeded.[0m
+2025.02.13 10:37:47 INFO  Canceling debug proxy for [BobTest(asking a numeric question)][0m
+2025.02.13 10:37:46 INFO  Closing debug server tcp://0.0.0.0:60419[0m
+2025.02.13 10:37:52 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:37:52 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:37:52 INFO  compiling bob-test (1 scala source)[0m
+2025.02.13 10:37:52 INFO  time: compiled bob-test in 0.27s[0m
+2025.02.13 10:37:53 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:37:53 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:37:53 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:37:53 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:37:53 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/bob/.metals/dap-server.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/dap-server.trace.json[0m
+2025.02.13 10:37:53 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/bob/.metals/dap-client.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/dap-client.trace.json[0m
+2025.02.13 10:37:53 INFO  Starting debug proxy for [BobTest(asking gibberish)][0m
+2025.02.13 10:37:53 INFO  Initialized Scala 3 decoder in 0 milliseconds[0m
+2025.02.13 10:37:53 INFO  Trying to attach to remote debuggee VM localhost:60433 .[0m
+2025.02.13 10:37:53 INFO  Attaching to debuggee VM succeeded.[0m
+2025.02.13 10:37:54 INFO  Canceling debug proxy for [BobTest(asking gibberish)][0m
+2025.02.13 10:37:53 INFO  Closing debug server tcp://0.0.0.0:60429[0m
+2025.02.13 10:38:01 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:38:01 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:38:01 INFO  compiling bob-test (1 scala source)[0m
+2025.02.13 10:38:01 INFO  time: compiled bob-test in 0.3s[0m
+2025.02.13 10:38:02 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:38:02 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:38:02 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:38:02 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:38:03 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/bob/.metals/dap-server.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/dap-server.trace.json[0m
+2025.02.13 10:38:03 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/bob/.metals/dap-client.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/dap-client.trace.json[0m
+2025.02.13 10:38:03 INFO  Starting debug proxy for [BobTest(talking forcefully)][0m
+2025.02.13 10:38:02 INFO  Initialized Scala 3 decoder in 0 milliseconds[0m
+2025.02.13 10:38:02 INFO  Trying to attach to remote debuggee VM localhost:60444 .[0m
+2025.02.13 10:38:02 INFO  Attaching to debuggee VM succeeded.[0m
+2025.02.13 10:38:03 INFO  Canceling debug proxy for [BobTest(talking forcefully)][0m
+2025.02.13 10:38:02 INFO  Closing debug server tcp://0.0.0.0:60440[0m
+2025.02.13 10:38:09 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:38:09 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:38:09 INFO  compiling bob-test (1 scala source)[0m
+2025.02.13 10:38:09 INFO  time: compiled bob-test in 0.3s[0m
+2025.02.13 10:38:10 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:38:10 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:38:10 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:38:10 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:38:10 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/bob/.metals/dap-server.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/dap-server.trace.json[0m
+2025.02.13 10:38:10 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/bob/.metals/dap-client.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/dap-client.trace.json[0m
+2025.02.13 10:38:10 INFO  Starting debug proxy for [BobTest(using acronyms in regular speech)][0m
+2025.02.13 10:38:10 INFO  Initialized Scala 3 decoder in 0 milliseconds[0m
+2025.02.13 10:38:10 INFO  Trying to attach to remote debuggee VM localhost:60456 .[0m
+2025.02.13 10:38:10 INFO  Attaching to debuggee VM succeeded.[0m
+2025.02.13 10:38:11 INFO  Canceling debug proxy for [BobTest(using acronyms in regular speech)][0m
+2025.02.13 10:38:10 INFO  Closing debug server tcp://0.0.0.0:60452[0m
+2025.02.13 10:38:21 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:38:21 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:38:21 INFO  compiling bob-test (1 scala source)[0m
+2025.02.13 10:38:21 INFO  time: compiled bob-test in 0.29s[0m
+2025.02.13 10:38:22 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:38:22 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:38:22 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:38:22 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:38:22 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/bob/.metals/dap-server.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/dap-server.trace.json[0m
+2025.02.13 10:38:22 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/bob/.metals/dap-client.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/dap-client.trace.json[0m
+2025.02.13 10:38:23 INFO  Starting debug proxy for [BobTest(forceful question)][0m
+2025.02.13 10:38:22 INFO  Initialized Scala 3 decoder in 0 milliseconds[0m
+2025.02.13 10:38:22 INFO  Trying to attach to remote debuggee VM localhost:60466 .[0m
+2025.02.13 10:38:22 INFO  Attaching to debuggee VM succeeded.[0m
+2025.02.13 10:38:23 INFO  Canceling debug proxy for [BobTest(forceful question)][0m
+2025.02.13 10:38:22 INFO  Closing debug server tcp://0.0.0.0:60462[0m
+2025.02.13 10:38:29 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:38:29 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:38:29 INFO  compiling bob-test (1 scala source)[0m
+2025.02.13 10:38:29 INFO  time: compiled bob-test in 0.24s[0m
+2025.02.13 10:38:31 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:38:31 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:38:31 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:38:31 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:38:31 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/bob/.metals/dap-server.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/dap-server.trace.json[0m
+2025.02.13 10:38:31 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/bob/.metals/dap-client.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/dap-client.trace.json[0m
+2025.02.13 10:38:31 INFO  Starting debug proxy for [BobTest(shouting numbers)][0m
+2025.02.13 10:38:31 INFO  Initialized Scala 3 decoder in 0 milliseconds[0m
+2025.02.13 10:38:31 INFO  Trying to attach to remote debuggee VM localhost:60476 .[0m
+2025.02.13 10:38:31 INFO  Attaching to debuggee VM succeeded.[0m
+2025.02.13 10:38:32 INFO  Canceling debug proxy for [BobTest(shouting numbers)][0m
+2025.02.13 10:38:31 INFO  Closing debug server tcp://0.0.0.0:60472[0m
+2025.02.13 10:38:37 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:38:37 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:38:37 INFO  compiling bob-test (1 scala source)[0m
+2025.02.13 10:38:37 INFO  time: compiled bob-test in 0.28s[0m
+2025.02.13 10:38:37 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:38:38 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:38:38 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:38:38 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:38:38 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/bob/.metals/dap-server.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/dap-server.trace.json[0m
+2025.02.13 10:38:38 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/bob/.metals/dap-client.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/dap-client.trace.json[0m
+2025.02.13 10:38:38 INFO  Starting debug proxy for [BobTest(no letters)][0m
+2025.02.13 10:38:38 INFO  Initialized Scala 3 decoder in 0 milliseconds[0m
+2025.02.13 10:38:38 INFO  Trying to attach to remote debuggee VM localhost:60487 .[0m
+2025.02.13 10:38:38 INFO  Attaching to debuggee VM succeeded.[0m
+2025.02.13 10:38:39 INFO  Canceling debug proxy for [BobTest(no letters)][0m
+2025.02.13 10:38:38 INFO  Closing debug server tcp://0.0.0.0:60483[0m
+2025.02.13 10:39:01 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:39:23 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:39:23 INFO  compiling bob (1 scala source)[0m
+2025.02.13 10:39:23 INFO  time: compiled bob in 0.11s[0m
+2025.02.13 10:39:26 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:39:26 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:39:26 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:39:26 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:39:26 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/bob/.metals/dap-server.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/dap-server.trace.json[0m
+2025.02.13 10:39:26 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/bob/.metals/dap-client.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/dap-client.trace.json[0m
+2025.02.13 10:39:26 INFO  Starting debug proxy for [BobTest(no letters)][0m
+2025.02.13 10:39:26 INFO  Initialized Scala 3 decoder in 0 milliseconds[0m
+2025.02.13 10:39:26 INFO  Trying to attach to remote debuggee VM localhost:60507 .[0m
+2025.02.13 10:39:26 INFO  Attaching to debuggee VM succeeded.[0m
+2025.02.13 10:39:26 INFO  Canceling debug proxy for [BobTest(no letters)][0m
+2025.02.13 10:39:26 INFO  Closing debug server tcp://0.0.0.0:60503[0m
+2025.02.13 10:40:05 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:40:05 INFO  compiling bob (1 scala source)[0m
+2025.02.13 10:40:05 INFO  time: compiled bob in 85ms[0m
+2025.02.13 10:40:06 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:40:06 INFO  compiling bob (1 scala source)[0m
+2025.02.13 10:40:06 INFO  time: compiled bob in 70ms[0m
+2025.02.13 10:40:17 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:40:17 INFO  compiling bob (1 scala source)[0m
+2025.02.13 10:40:17 INFO  time: compiled bob in 96ms[0m
+2025.02.13 10:40:23 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:40:23 INFO  compiling bob (1 scala source)[0m
+2025.02.13 10:40:23 INFO  time: compiled bob in 0.1s[0m
+2025.02.13 10:40:25 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:40:25 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:40:25 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:40:25 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:40:25 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/bob/.metals/dap-server.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/dap-server.trace.json[0m
+2025.02.13 10:40:25 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/bob/.metals/dap-client.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/dap-client.trace.json[0m
+2025.02.13 10:40:25 INFO  Starting debug proxy for [BobTest(no letters)][0m
+2025.02.13 10:40:25 INFO  Initialized Scala 3 decoder in 0 milliseconds[0m
+2025.02.13 10:40:25 INFO  Trying to attach to remote debuggee VM localhost:60532 .[0m
+2025.02.13 10:40:25 INFO  Attaching to debuggee VM succeeded.[0m
+2025.02.13 10:40:25 INFO  Canceling debug proxy for [BobTest(no letters)][0m
+2025.02.13 10:40:25 INFO  Closing debug server tcp://0.0.0.0:60528[0m
+2025.02.13 10:40:30 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:40:30 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:40:33 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:40:33 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:40:33 INFO  compiling bob-test (1 scala source)[0m
+2025.02.13 10:40:33 INFO  time: compiled bob-test in 0.26s[0m
+2025.02.13 10:40:34 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:40:34 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:40:34 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:40:34 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:40:34 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/bob/.metals/dap-server.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/dap-server.trace.json[0m
+2025.02.13 10:40:34 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/bob/.metals/dap-client.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/dap-client.trace.json[0m
+2025.02.13 10:40:34 INFO  Starting debug proxy for [BobTest(question with no letters)][0m
+2025.02.13 10:40:34 INFO  Initialized Scala 3 decoder in 0 milliseconds[0m
+2025.02.13 10:40:34 INFO  Trying to attach to remote debuggee VM localhost:60544 .[0m
+2025.02.13 10:40:34 INFO  Attaching to debuggee VM succeeded.[0m
+2025.02.13 10:40:35 INFO  Canceling debug proxy for [BobTest(question with no letters)][0m
+2025.02.13 10:40:34 INFO  Closing debug server tcp://0.0.0.0:60540[0m
+2025.02.13 10:40:40 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:40:40 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:40:40 INFO  compiling bob-test (1 scala source)[0m
+2025.02.13 10:40:40 INFO  time: compiled bob-test in 0.29s[0m
+2025.02.13 10:40:42 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:40:42 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:40:42 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:40:42 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:40:42 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/bob/.metals/dap-server.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/dap-server.trace.json[0m
+2025.02.13 10:40:42 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/bob/.metals/dap-client.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/dap-client.trace.json[0m
+2025.02.13 10:40:42 INFO  Starting debug proxy for [BobTest(shouting with special characters)][0m
+2025.02.13 10:40:42 INFO  Initialized Scala 3 decoder in 0 milliseconds[0m
+2025.02.13 10:40:42 INFO  Trying to attach to remote debuggee VM localhost:60556 .[0m
+2025.02.13 10:40:42 INFO  Attaching to debuggee VM succeeded.[0m
+2025.02.13 10:40:43 INFO  Canceling debug proxy for [BobTest(shouting with special characters)][0m
+2025.02.13 10:40:42 INFO  Closing debug server tcp://0.0.0.0:60551[0m
+2025.02.13 10:40:48 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:40:48 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:40:48 INFO  compiling bob-test (1 scala source)[0m
+2025.02.13 10:40:48 INFO  time: compiled bob-test in 0.27s[0m
+2025.02.13 10:40:49 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:40:49 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:40:49 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:40:49 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:40:49 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/bob/.metals/dap-server.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/dap-server.trace.json[0m
+2025.02.13 10:40:49 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/bob/.metals/dap-client.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/dap-client.trace.json[0m
+2025.02.13 10:40:49 INFO  Starting debug proxy for [BobTest(shouting with no exclamation mark)][0m
+2025.02.13 10:40:49 INFO  Initialized Scala 3 decoder in 0 milliseconds[0m
+2025.02.13 10:40:49 INFO  Trying to attach to remote debuggee VM localhost:60568 .[0m
+2025.02.13 10:40:49 INFO  Attaching to debuggee VM succeeded.[0m
+2025.02.13 10:40:49 INFO  Closing debug server tcp://0.0.0.0:60564[0m
+2025.02.13 10:40:50 INFO  Canceling debug proxy for [BobTest(shouting with no exclamation mark)][0m
+2025.02.13 10:40:58 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:40:58 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:40:58 INFO  compiling bob-test (1 scala source)[0m
+2025.02.13 10:40:58 INFO  time: compiled bob-test in 0.27s[0m
+2025.02.13 10:41:00 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:41:00 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:41:00 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:41:00 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:41:00 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/bob/.metals/dap-server.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/dap-server.trace.json[0m
+2025.02.13 10:41:00 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/bob/.metals/dap-client.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/dap-client.trace.json[0m
+2025.02.13 10:41:00 INFO  Starting debug proxy for [BobTest(statement containing question mark)][0m
+2025.02.13 10:41:00 INFO  Initialized Scala 3 decoder in 0 milliseconds[0m
+2025.02.13 10:41:00 INFO  Trying to attach to remote debuggee VM localhost:60581 .[0m
+2025.02.13 10:41:00 INFO  Attaching to debuggee VM succeeded.[0m
+2025.02.13 10:41:01 INFO  Canceling debug proxy for [BobTest(statement containing question mark)][0m
+2025.02.13 10:41:00 INFO  Closing debug server tcp://0.0.0.0:60577[0m
+2025.02.13 10:41:08 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:41:08 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:41:08 INFO  compiling bob-test (1 scala source)[0m
+2025.02.13 10:41:08 INFO  time: compiled bob-test in 0.27s[0m
+2025.02.13 10:41:09 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:41:09 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:41:09 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:41:09 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:41:09 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/bob/.metals/dap-server.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/dap-server.trace.json[0m
+2025.02.13 10:41:09 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/bob/.metals/dap-client.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/dap-client.trace.json[0m
+2025.02.13 10:41:09 INFO  Starting debug proxy for [BobTest(non-letters with question)][0m
+2025.02.13 10:41:09 INFO  Initialized Scala 3 decoder in 0 milliseconds[0m
+2025.02.13 10:41:09 INFO  Trying to attach to remote debuggee VM localhost:60596 .[0m
+2025.02.13 10:41:09 INFO  Attaching to debuggee VM succeeded.[0m
+2025.02.13 10:41:10 INFO  Canceling debug proxy for [BobTest(non-letters with question)][0m
+2025.02.13 10:41:09 INFO  Closing debug server tcp://0.0.0.0:60592[0m
+2025.02.13 10:41:16 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:41:16 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:41:16 INFO  compiling bob-test (1 scala source)[0m
+2025.02.13 10:41:16 INFO  time: compiled bob-test in 0.29s[0m
+2025.02.13 10:41:18 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:41:18 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:41:18 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:41:18 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:41:18 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/bob/.metals/dap-server.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/dap-server.trace.json[0m
+2025.02.13 10:41:18 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/bob/.metals/dap-client.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/dap-client.trace.json[0m
+2025.02.13 10:41:18 INFO  Starting debug proxy for [BobTest(prattling on)][0m
+2025.02.13 10:41:18 INFO  Initialized Scala 3 decoder in 1 millisecond[0m
+2025.02.13 10:41:18 INFO  Trying to attach to remote debuggee VM localhost:60608 .[0m
+2025.02.13 10:41:18 INFO  Attaching to debuggee VM succeeded.[0m
+2025.02.13 10:41:18 INFO  Canceling debug proxy for [BobTest(prattling on)][0m
+2025.02.13 10:41:18 INFO  Closing debug server tcp://0.0.0.0:60604[0m
+2025.02.13 10:41:25 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:41:25 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:41:25 INFO  compiling bob-test (1 scala source)[0m
+2025.02.13 10:41:25 INFO  time: compiled bob-test in 0.3s[0m
+2025.02.13 10:41:26 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:41:26 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:41:26 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:41:26 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:41:26 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/bob/.metals/dap-server.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/dap-server.trace.json[0m
+2025.02.13 10:41:26 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/bob/.metals/dap-client.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/dap-client.trace.json[0m
+2025.02.13 10:41:26 INFO  Starting debug proxy for [BobTest(silence)][0m
+2025.02.13 10:41:26 INFO  Initialized Scala 3 decoder in 0 milliseconds[0m
+2025.02.13 10:41:26 INFO  Trying to attach to remote debuggee VM localhost:60619 .[0m
+2025.02.13 10:41:26 INFO  Attaching to debuggee VM succeeded.[0m
+2025.02.13 10:41:27 INFO  Canceling debug proxy for [BobTest(silence)][0m
+2025.02.13 10:41:26 INFO  Closing debug server tcp://0.0.0.0:60615[0m
+2025.02.13 10:41:31 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:41:31 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:41:31 INFO  compiling bob-test (1 scala source)[0m
+2025.02.13 10:41:31 INFO  time: compiled bob-test in 0.23s[0m
+2025.02.13 10:41:32 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:41:32 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:41:32 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:41:32 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:41:32 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/bob/.metals/dap-server.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/dap-server.trace.json[0m
+2025.02.13 10:41:32 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/bob/.metals/dap-client.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/dap-client.trace.json[0m
+2025.02.13 10:41:32 INFO  Starting debug proxy for [BobTest(prolonged silence)][0m
+2025.02.13 10:41:32 INFO  Initialized Scala 3 decoder in 0 milliseconds[0m
+2025.02.13 10:41:32 INFO  Trying to attach to remote debuggee VM localhost:60632 .[0m
+2025.02.13 10:41:32 INFO  Attaching to debuggee VM succeeded.[0m
+2025.02.13 10:41:33 INFO  Canceling debug proxy for [BobTest(prolonged silence)][0m
+2025.02.13 10:41:32 INFO  Closing debug server tcp://0.0.0.0:60627[0m
+2025.02.13 10:41:41 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:41:41 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:41:41 INFO  compiling bob-test (1 scala source)[0m
+2025.02.13 10:41:41 INFO  time: compiled bob-test in 0.27s[0m
+2025.02.13 10:41:42 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:41:42 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:41:42 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:41:42 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:41:42 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/bob/.metals/dap-server.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/dap-server.trace.json[0m
+2025.02.13 10:41:42 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/bob/.metals/dap-client.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/dap-client.trace.json[0m
+2025.02.13 10:41:42 INFO  Starting debug proxy for [BobTest(alternate silence)][0m
+2025.02.13 10:41:42 INFO  Initialized Scala 3 decoder in 0 milliseconds[0m
+2025.02.13 10:41:42 INFO  Trying to attach to remote debuggee VM localhost:60643 .[0m
+2025.02.13 10:41:42 INFO  Attaching to debuggee VM succeeded.[0m
+2025.02.13 10:41:43 INFO  Canceling debug proxy for [BobTest(alternate silence)][0m
+2025.02.13 10:41:42 INFO  Closing debug server tcp://0.0.0.0:60639[0m
+2025.02.13 10:41:48 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:41:48 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:41:48 INFO  compiling bob-test (1 scala source)[0m
+2025.02.13 10:41:48 INFO  time: compiled bob-test in 0.24s[0m
+2025.02.13 10:41:50 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:41:50 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:41:50 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:41:50 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:41:50 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/bob/.metals/dap-server.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/dap-server.trace.json[0m
+2025.02.13 10:41:50 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/bob/.metals/dap-client.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/dap-client.trace.json[0m
+2025.02.13 10:41:50 INFO  Starting debug proxy for [BobTest(multiple line question)][0m
+2025.02.13 10:41:50 INFO  Initialized Scala 3 decoder in 0 milliseconds[0m
+2025.02.13 10:41:50 INFO  Trying to attach to remote debuggee VM localhost:60655 .[0m
+2025.02.13 10:41:50 INFO  Attaching to debuggee VM succeeded.[0m
+2025.02.13 10:41:50 INFO  Canceling debug proxy for [BobTest(multiple line question)][0m
+2025.02.13 10:41:50 INFO  Closing debug server tcp://0.0.0.0:60651[0m
+2025.02.13 10:41:55 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:41:55 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:41:55 INFO  compiling bob-test (1 scala source)[0m
+2025.02.13 10:41:55 INFO  time: compiled bob-test in 0.21s[0m
+2025.02.13 10:41:56 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:41:56 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:41:56 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:41:56 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:41:56 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/bob/.metals/dap-server.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/dap-server.trace.json[0m
+2025.02.13 10:41:56 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/bob/.metals/dap-client.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/dap-client.trace.json[0m
+2025.02.13 10:41:56 INFO  Starting debug proxy for [BobTest(starting with whitespace)][0m
+2025.02.13 10:41:56 INFO  Initialized Scala 3 decoder in 0 milliseconds[0m
+2025.02.13 10:41:56 INFO  Trying to attach to remote debuggee VM localhost:60667 .[0m
+2025.02.13 10:41:56 INFO  Attaching to debuggee VM succeeded.[0m
+2025.02.13 10:41:57 INFO  Canceling debug proxy for [BobTest(starting with whitespace)][0m
+2025.02.13 10:41:56 INFO  Closing debug server tcp://0.0.0.0:60663[0m
+2025.02.13 10:42:03 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:42:03 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:42:03 INFO  compiling bob-test (1 scala source)[0m
+2025.02.13 10:42:03 INFO  time: compiled bob-test in 0.23s[0m
+2025.02.13 10:42:03 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:42:03 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:42:03 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:42:03 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:42:03 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:42:03 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:42:03 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/bob/.metals/dap-server.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/dap-server.trace.json[0m
+2025.02.13 10:42:03 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/bob/.metals/dap-client.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/dap-client.trace.json[0m
+2025.02.13 10:42:03 INFO  Starting debug proxy for [BobTest(ending with whitespace)][0m
+2025.02.13 10:42:03 INFO  Initialized Scala 3 decoder in 0 milliseconds[0m
+2025.02.13 10:42:03 INFO  Trying to attach to remote debuggee VM localhost:60680 .[0m
+2025.02.13 10:42:03 INFO  Attaching to debuggee VM succeeded.[0m
+2025.02.13 10:42:04 INFO  Canceling debug proxy for [BobTest(ending with whitespace)][0m
+2025.02.13 10:42:04 INFO  Closing debug server tcp://0.0.0.0:60676[0m
+2025.02.13 10:42:17 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:42:24 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:42:24 INFO  compiling bob (1 scala source)[0m
+2025.02.13 10:42:24 INFO  time: compiled bob in 61ms[0m
+2025.02.13 10:42:24 WARN  Could not load snapshot text for /Users/mailund/Code/exercism/scala/bob/src/main/scala/Bob.scala[0m
+2025.02.13 10:42:35 WARN  Could not load snapshot text for /Users/mailund/Code/exercism/scala/bob/src/main/scala/Bob.scala[0m
+2025.02.13 10:42:38 WARN  Could not load snapshot text for /Users/mailund/Code/exercism/scala/bob/src/main/scala/Bob.scala[0m
+2025.02.13 10:42:38 WARN  Could not load snapshot text for /Users/mailund/Code/exercism/scala/bob/src/main/scala/Bob.scala[0m
+2025.02.13 10:42:38 WARN  Could not load snapshot text for /Users/mailund/Code/exercism/scala/bob/src/main/scala/Bob.scala[0m
+2025.02.13 10:42:38 WARN  Could not load snapshot text for /Users/mailund/Code/exercism/scala/bob/src/main/scala/Bob.scala[0m
+2025.02.13 10:42:38 WARN  Could not load snapshot text for /Users/mailund/Code/exercism/scala/bob/src/main/scala/Bob.scala[0m
+2025.02.13 10:42:38 WARN  Could not load snapshot text for /Users/mailund/Code/exercism/scala/bob/src/main/scala/Bob.scala[0m
+2025.02.13 10:42:41 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:42:41 INFO  compiling bob (1 scala source)[0m
+2025.02.13 10:42:41 INFO  time: compiled bob in 0.13s[0m
+2025.02.13 10:42:47 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:42:47 INFO  compiling bob (1 scala source)[0m
+2025.02.13 10:42:47 INFO  time: compiled bob in 83ms[0m
+2025.02.13 10:42:51 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:42:51 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:42:51 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:42:51 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:42:51 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/bob/.metals/dap-server.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/dap-server.trace.json[0m
+2025.02.13 10:42:51 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/bob/.metals/dap-client.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/dap-client.trace.json[0m
+2025.02.13 10:42:52 INFO  Starting debug proxy for [BobTest(ending with whitespace)][0m
+2025.02.13 10:42:51 INFO  Initialized Scala 3 decoder in 0 milliseconds[0m
+2025.02.13 10:42:51 INFO  Trying to attach to remote debuggee VM localhost:60701 .[0m
+2025.02.13 10:42:51 INFO  Attaching to debuggee VM succeeded.[0m
+2025.02.13 10:42:52 INFO  Canceling debug proxy for [BobTest(ending with whitespace)][0m
+2025.02.13 10:42:51 INFO  Closing debug server tcp://0.0.0.0:60697[0m
+2025.02.13 10:42:56 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:42:56 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:42:56 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:42:56 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:42:56 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/bob/.metals/dap-server.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/dap-server.trace.json[0m
+2025.02.13 10:42:56 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/bob/.metals/dap-client.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/dap-client.trace.json[0m
+2025.02.13 10:42:56 INFO  Starting debug proxy for [BobTest(other whitespace)][0m
+2025.02.13 10:42:56 INFO  Initialized Scala 3 decoder in 0 milliseconds[0m
+2025.02.13 10:42:56 INFO  Trying to attach to remote debuggee VM localhost:60713 .[0m
+2025.02.13 10:42:56 INFO  Attaching to debuggee VM succeeded.[0m
+2025.02.13 10:42:56 INFO  Canceling debug proxy for [BobTest(other whitespace)][0m
+2025.02.13 10:42:56 INFO  Closing debug server tcp://0.0.0.0:60709[0m
+2025.02.13 10:42:57 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:42:57 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:43:00 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:43:00 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:43:00 INFO  compiling bob-test (1 scala source)[0m
+2025.02.13 10:43:00 INFO  time: compiled bob-test in 0.24s[0m
+2025.02.13 10:43:02 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:43:02 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:43:02 INFO  compiling bob-test (1 scala source)[0m
+2025.02.13 10:43:02 INFO  time: compiled bob-test in 0.26s[0m
+2025.02.13 10:43:03 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:43:03 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:43:03 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:43:03 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:43:03 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/bob/.metals/dap-server.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/dap-server.trace.json[0m
+2025.02.13 10:43:03 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/bob/.metals/dap-client.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/dap-client.trace.json[0m
+2025.02.13 10:43:03 INFO  Starting debug proxy for [BobTest(other whitespace)][0m
+2025.02.13 10:43:03 INFO  Initialized Scala 3 decoder in 0 milliseconds[0m
+2025.02.13 10:43:03 INFO  Trying to attach to remote debuggee VM localhost:60725 .[0m
+2025.02.13 10:43:03 INFO  Attaching to debuggee VM succeeded.[0m
+2025.02.13 10:43:04 INFO  Canceling debug proxy for [BobTest(other whitespace)][0m
+2025.02.13 10:43:03 INFO  Closing debug server tcp://0.0.0.0:60721[0m
+2025.02.13 10:43:08 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:43:08 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:43:08 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:43:08 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:43:08 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/bob/.metals/dap-server.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/dap-server.trace.json[0m
+2025.02.13 10:43:08 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/bob/.metals/dap-client.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/dap-client.trace.json[0m
+2025.02.13 10:43:08 INFO  Starting debug proxy for [BobTest(non-question ending with whitespace)][0m
+2025.02.13 10:43:08 INFO  Initialized Scala 3 decoder in 0 milliseconds[0m
+2025.02.13 10:43:08 INFO  Trying to attach to remote debuggee VM localhost:60738 .[0m
+2025.02.13 10:43:08 INFO  Attaching to debuggee VM succeeded.[0m
+2025.02.13 10:43:09 INFO  Canceling debug proxy for [BobTest(non-question ending with whitespace)][0m
+2025.02.13 10:43:08 INFO  Closing debug server tcp://0.0.0.0:60734[0m
+2025.02.13 10:43:30 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:43:30 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:43:30 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:43:30 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 10:43:30 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/bob/.metals/dap-server.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/dap-server.trace.json[0m
+2025.02.13 10:43:30 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/bob/.metals/dap-client.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/dap-client.trace.json[0m
+2025.02.13 10:43:30 INFO  Starting debug proxy for [BobTest()][0m
+2025.02.13 10:43:30 INFO  Initialized Scala 3 decoder in 0 milliseconds[0m
+2025.02.13 10:43:30 INFO  Trying to attach to remote debuggee VM localhost:60751 .[0m
+2025.02.13 10:43:30 INFO  Attaching to debuggee VM succeeded.[0m
+2025.02.13 10:43:31 INFO  Canceling debug proxy for [BobTest()][0m
+2025.02.13 10:43:30 INFO  Closing debug server tcp://0.0.0.0:60747[0m
+Feb 13, 2025 10:43:33 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
