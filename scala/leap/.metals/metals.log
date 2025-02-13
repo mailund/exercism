@@ -1,0 +1,73 @@
+2025.02.13 06:38:33 INFO  Started: Metals version 1.5.1 in folders '/Users/mailund/Code/exercism/scala/leap' for client Visual Studio Code 1.97.0.[0m
+2025.02.13 06:38:42 INFO  running '/Users/mailund/Library/Caches/Coursier/arc/https/github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.14%252B7/OpenJDK17U-jdk_aarch64_mac_hotspot_17.0.14_7.tar.gz/jdk-17.0.14+7/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/kg/8d2zts_d7vs2lr7rnyvx0wf80000gn/T/metals421854720605836491/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+2025.02.13 06:38:42 ERROR [info] [launcher] getting org.scala-sbt sbt 1.10.1  (this may take some time)...[0m
+2025.02.13 06:38:42 WARN  no build target for: /Users/mailund/Code/exercism/scala/leap/project/metals.sbt[0m
+2025.02.13 06:38:42 WARN  no build target for: /Users/mailund/Code/exercism/scala/leap/project/project/metals.sbt[0m
+2025.02.13 06:38:42 INFO  no build target found for /Users/mailund/Code/exercism/scala/leap/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.02.13 06:39:01 ERROR [info] [launcher] getting Scala 2.12.19 (for sbt)...[0m
+2025.02.13 06:39:02 INFO  no build target found for /Users/mailund/Code/exercism/scala/leap/project/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.02.13 06:39:02 INFO  [info] welcome to sbt 1.10.1 (Eclipse Adoptium Java 17.0.14)[0m
+2025.02.13 06:39:02 INFO  [info] loading settings for project leap-build-build from metals.sbt ...[0m
+2025.02.13 06:39:03 INFO  [info] loading project definition from /Users/mailund/Code/exercism/scala/leap/project/project[0m
+2025.02.13 06:39:04 INFO  [info] loading settings for project leap-build from metals.sbt ...[0m
+2025.02.13 06:39:04 INFO  [info] loading project definition from /Users/mailund/Code/exercism/scala/leap/project[0m
+2025.02.13 06:39:07 INFO  [success] Generated .bloop/leap-build.json[0m
+2025.02.13 06:39:07 INFO  [success] Total time: 3 s, completed 13 Feb 2025, 06.39.08[0m
+2025.02.13 06:39:07 INFO  [info] loading settings for project leap from build.sbt ...[0m
+2025.02.13 06:39:07 INFO  [info] set current project to leap (in build file:/Users/mailund/Code/exercism/scala/leap/)[0m
+Feb 13, 2025 6:39:14 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+2025.02.13 06:39:20 INFO  [success] Generated .bloop/leap.json[0m
+2025.02.13 06:39:20 INFO  [success] Generated .bloop/leap-test.json[0m
+2025.02.13 06:39:20 INFO  [success] Total time: 12 s, completed 13 Feb 2025, 06.39.20[0m
+2025.02.13 06:39:20 INFO  time: ran 'sbt bloopInstall' in 38s[0m
+2025.02.13 06:39:20 INFO  Attempting to connect to the build server...[0m
+2025.02.13 06:39:20 INFO  No running Bloop server found, starting one.[0m
+2025.02.13 06:39:35 INFO  Starting compilation server[0m
+2025.02.13 06:39:36 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/leap/.metals/bsp.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2025.02.13 06:39:36 INFO  Attempting to connect to the build server...[0m
+2025.02.13 06:39:36 INFO  Found a Bloop server running[0m
+2025.02.13 06:39:36 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/leap/project/.metals/bsp.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2025.02.13 06:39:41 INFO  time: Connected to build server in 20s[0m
+2025.02.13 06:39:41 INFO  Connected to Build server: Bloop v2.0.8[0m
+2025.02.13 06:39:41 INFO  running doctor check[0m
+2025.02.13 06:39:41 INFO  java targets: leap, leap-build, leap-test[0m
+2025.02.13 06:39:59 INFO  time: indexed workspace in 18s[0m
+Feb 13, 2025 6:40:12 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 13, 2025 6:42:10 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 13, 2025 6:42:17 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+2025.02.13 06:42:20 INFO  compiling leap (1 scala source)[0m
+2025.02.13 06:42:21 INFO  time: compiled leap in 1.61s[0m
+2025.02.13 06:42:21 INFO  compiling leap (1 scala source)[0m
+2025.02.13 06:42:21 INFO  time: compiled leap in 0.28s[0m
+Feb 13, 2025 6:42:35 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14
+2025.02.13 06:42:39 INFO  compiling leap (1 scala source)[0m
+2025.02.13 06:42:39 INFO  time: compiled leap in 0.27s[0m
+Feb 13, 2025 6:42:46 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 13, 2025 6:42:56 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+2025.02.13 06:43:00 INFO  compiling leap (1 scala source)[0m
+2025.02.13 06:43:00 INFO  time: compiled leap in 0.55s[0m
+Feb 13, 2025 6:43:05 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 13, 2025 6:43:52 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+2025.02.13 06:43:56 INFO  compiling leap-test (1 scala source)[0m
+2025.02.13 06:43:56 INFO  time: compiled leap-test in 0.93s[0m
+2025.02.13 06:44:05 INFO  compiling leap-test (1 scala source)[0m
+2025.02.13 06:44:05 INFO  time: compiled leap-test in 0.48s[0m
+Feb 13, 2025 6:44:06 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 13, 2025 6:44:25 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 13, 2025 6:44:35 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 13, 2025 6:45:00 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 13, 2025 6:45:00 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace

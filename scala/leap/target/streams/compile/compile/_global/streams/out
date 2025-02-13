@@ -1,0 +1,5 @@
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E008] Not Found Error: /Users/mailund/Code/exercism/scala/leap/src/main/scala/Leap.scala:2:48 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m2 |[0m  [33mdef[0m [36mleapYear[0m([36myear[0m: [35mInt[0m): [35mBoolean[0m = (year % [31m4[0m) && (year % [31m100[0m != [31m0[0m) || (year % [31m400[0m == [31m0[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m                                     ^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m                                     value && is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
