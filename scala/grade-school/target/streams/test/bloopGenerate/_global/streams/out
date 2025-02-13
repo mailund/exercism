@@ -1,0 +1,4 @@
+[0m[[0m[0mdebug[0m] [0m[0m[grade-school-test] Classpath dependencies List()[0m
+[0m[[0m[0mdebug[0m] [0m[0m[grade-school-test] Dependencies from configurations List(grade-school)[0m
+[0m[[0m[0mdebug[0m] [0m[0mBloop wrote the configuration of project 'grade-school-test' to '/Users/mailund/Code/exercism/scala/grade-school/.bloop/grade-school-test.json'[0m
+[0m[[0m[32msuccess[0m] [0m[0mGenerated .bloop/grade-school-test.json[0m
