@@ -1,0 +1,12 @@
+/Users/mailund/.ghcup/ghc/9.2.7/lib/ghc-9.2.7/lib/aarch64-osx-ghc-9.2.7/rts-1.0.2/include/ghcversion.h:
+  hash: 33b3e1b0047b6cca48a29d69ecd33f64042e571e70747f1155f402ea75f33a9f
+/Users/mailund/Code/exercism/haskell/reverse-string/.stack-work/dist/aarch64-osx/ghc-9.2.7/build/autogen/Paths_reverse_string.hs:
+  hash: 14ba9efe4f4478a5116fa1f45af04a8525199838641d4cf040cc992ccf6ca7df
+/Users/mailund/Code/exercism/haskell/reverse-string/.stack-work/dist/aarch64-osx/ghc-9.2.7/build/autogen/cabal_macros.h:
+  hash: 015d814de8985754f616ed2bc606e860298eeef743802cf6953ef909a5db8788
+/Users/mailund/Code/exercism/haskell/reverse-string/package.yaml:
+  hash: 1195c9e33947134b42b2cc847d0313cd26b3775064d44bdf5a246004a4ffa37e
+/Users/mailund/Code/exercism/haskell/reverse-string/reverse-string.cabal:
+  hash: de04162c31ce0049b59ccab27e260103c33ae74f9e12a1efe40e5e5d74c4635b
+/Users/mailund/Code/exercism/haskell/reverse-string/src/ReverseString.hs:
+  hash: dcc71e6e57a0975e95beaf63acdf8fab28a0d8d6b9ef7197aeb01c741e0da6d6

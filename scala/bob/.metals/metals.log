@@ -753,3 +753,14 @@ SEVERE: empty definition using pc, found symbol in pc: `<none>`. (full report at
 2025.02.13 10:46:07 INFO  time: compiled bob in 0.16s[0m
 Feb 13, 2025 10:46:09 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 13, 2025 10:47:09 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 13, 2025 11:08:16 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 13, 2025 11:08:16 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+2025.02.13 11:08:18 INFO  Shutting down server[0m
+2025.02.13 11:08:18 INFO  shutting down Metals[0m
+2025.02.13 11:08:18 INFO  Shut down connection with build server.[0m
+2025.02.13 11:08:18 INFO  Shut down connection with build server.[0m
+2025.02.13 11:08:18 INFO  Exiting server[0m

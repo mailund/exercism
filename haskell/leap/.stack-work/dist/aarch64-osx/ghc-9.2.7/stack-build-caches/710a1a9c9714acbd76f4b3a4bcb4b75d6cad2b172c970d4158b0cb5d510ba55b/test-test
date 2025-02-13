@@ -1,0 +1,12 @@
+/Users/mailund/.ghcup/ghc/9.2.7/lib/ghc-9.2.7/lib/aarch64-osx-ghc-9.2.7/rts-1.0.2/include/ghcversion.h:
+  hash: 33b3e1b0047b6cca48a29d69ecd33f64042e571e70747f1155f402ea75f33a9f
+/Users/mailund/Code/exercism/haskell/leap/.stack-work/dist/aarch64-osx/ghc-9.2.7/build/test/autogen/Paths_leap.hs:
+  hash: bbc22cc2ce2a13df83fafcd868b955fbbc5de8e6b04b254103b7e6d58f7833d0
+/Users/mailund/Code/exercism/haskell/leap/.stack-work/dist/aarch64-osx/ghc-9.2.7/build/test/autogen/cabal_macros.h:
+  hash: d2e5c13508c0e2c6a463b755d0969a73b43cce5789011b10dc6f357476d05b3c
+/Users/mailund/Code/exercism/haskell/leap/leap.cabal:
+  hash: 92d2dc1c77ca2922f3afe23222da0d47dd8a56eea4fa0b425fef3e5cf09efab8
+/Users/mailund/Code/exercism/haskell/leap/package.yaml:
+  hash: 741adae21e7fab15e96ec98d318f3ec9cbc33dc86f419cd56cd829d6c64a1c54
+/Users/mailund/Code/exercism/haskell/leap/test/Tests.hs:
+  hash: bd70928d9dac981dd68e102da27d1995749854ef7d59e2c3bd735c04a5454fd1
