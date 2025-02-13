@@ -71,3 +71,8 @@ Feb 13, 2025 6:45:00 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notif
 WARNING: Unsupported notification method: metals/windowStateDidChange
 Feb 13, 2025 6:45:00 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
+2025.02.13 06:45:18 INFO  Shutting down server[0m
+2025.02.13 06:45:18 INFO  shutting down Metals[0m
+2025.02.13 06:45:18 INFO  Shut down connection with build server.[0m
+2025.02.13 06:45:18 INFO  Shut down connection with build server.[0m
+2025.02.13 06:45:18 INFO  Exiting server[0m
