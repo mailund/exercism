@@ -5,9 +5,10 @@ object Bob {
   
   def response(statement: String): String = 
     val s = statement.trim
-    if (allCaps(s) && s.endsWith("?")) "Calm down, I know what I'm doing!"
-    else if (allCaps(s)) "Whoa, chill out!"
-    else if (s.endsWith("?")) "Sure."
-    else if (s.isEmpty) "Fine. Be that way!"
-    else "Whatever."
+    (allCaps(s), s.endsWith("?")) match {
+      case (true, true) => "Calm down, I know what I'm doing!"
+      case (true, false) => "Whoa, chill out!"
+      case (false, true) => "Sure."
+      case (false, false) => if (s.isEmpty) "Fine. Be that way!" else "Whatever."
+    }
 }
