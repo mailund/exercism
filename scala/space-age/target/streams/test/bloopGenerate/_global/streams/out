@@ -1,0 +1,4 @@
+[0m[[0m[0mdebug[0m] [0m[0m[space-age-test] Classpath dependencies List()[0m
+[0m[[0m[0mdebug[0m] [0m[0m[space-age-test] Dependencies from configurations List(space-age)[0m
+[0m[[0m[0mdebug[0m] [0m[0mBloop wrote the configuration of project 'space-age-test' to '/Users/mailund/Code/exercism/scala/space-age/.bloop/space-age-test.json'[0m
+[0m[[0m[32msuccess[0m] [0m[0mGenerated .bloop/space-age-test.json[0m

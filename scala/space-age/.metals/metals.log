@@ -1,0 +1,281 @@
+2025.02.13 06:45:45 INFO  Started: Metals version 1.5.1 in folders '/Users/mailund/Code/exercism/scala/space-age' for client Visual Studio Code 1.97.0.[0m
+Feb 13, 2025 6:45:47 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Feb 13, 2025 6:45:47 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2025.02.13 06:45:58 INFO  running '/Users/mailund/Library/Application Support/Coursier/bin/sbt -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+2025.02.13 06:45:58 WARN  no build target for: /Users/mailund/Code/exercism/scala/space-age/project/metals.sbt[0m
+2025.02.13 06:45:58 WARN  no build target for: /Users/mailund/Code/exercism/scala/space-age/project/project/metals.sbt[0m
+2025.02.13 06:45:58 INFO  no build target found for /Users/mailund/Code/exercism/scala/space-age/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.02.13 06:45:59 ERROR Feb 13, 2025 6:45:58 AM org.jline.utils.Log logr[0m
+2025.02.13 06:45:59 ERROR WARNING: Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)[0m
+2025.02.13 06:45:59 INFO  [info] welcome to sbt 1.10.1 (Homebrew Java 23.0.2)[0m
+2025.02.13 06:45:59 INFO  no build target found for /Users/mailund/Code/exercism/scala/space-age/project/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.02.13 06:45:59 INFO  [info] loading settings for project space-age-build-build from metals.sbt ...[0m
+2025.02.13 06:46:00 INFO  [info] loading project definition from /Users/mailund/Code/exercism/scala/space-age/project/project[0m
+2025.02.13 06:46:00 INFO  [0m
+2025.02.13 06:46:00 INFO    | => space-age-build-build / Compile / compileIncremental 0s[0m
+2025.02.13 06:46:00 INFO  [info] loading settings for project space-age-build from metals.sbt ...[0m
+2025.02.13 06:46:00 INFO  [info] loading project definition from /Users/mailund/Code/exercism/scala/space-age/project[0m
+2025.02.13 06:46:01 INFO  [0m
+2025.02.13 06:46:01 INFO    | => space-age-build / updateSbtClassifiers 0s[0m
+2025.02.13 06:46:01 INFO  [success] Generated .bloop/space-age-build.json[0m
+2025.02.13 06:46:01 INFO  [success] Total time: 1 s, completed 13 Feb 2025, 06.46.02[0m
+2025.02.13 06:46:02 INFO  [info] loading settings for project space-age from build.sbt ...[0m
+2025.02.13 06:46:02 INFO  [info] set current project to space-age (in build file:/Users/mailund/Code/exercism/scala/space-age/)[0m
+2025.02.13 06:46:02 INFO  [0m
+2025.02.13 06:46:02 INFO    | => space-age / update 0s[0m
+2025.02.13 06:46:02 INFO  [success] Generated .bloop/space-age.json[0m
+2025.02.13 06:46:02 INFO  [success] Generated .bloop/space-age-test.json[0m
+2025.02.13 06:46:02 INFO  [success] Total time: 0 s, completed 13 Feb 2025, 06.46.03[0m
+2025.02.13 06:46:02 INFO  [0m
+2025.02.13 06:46:03 INFO  time: ran 'sbt bloopInstall' in 5.08s[0m
+2025.02.13 06:46:03 INFO  Attempting to connect to the build server...[0m
+2025.02.13 06:46:03 INFO  Found a Bloop server running[0m
+2025.02.13 06:46:03 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/space-age/.metals/bsp.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2025.02.13 06:46:03 INFO  Attempting to connect to the build server...[0m
+2025.02.13 06:46:03 INFO  Found a Bloop server running[0m
+2025.02.13 06:46:03 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/space-age/project/.metals/bsp.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2025.02.13 06:46:03 INFO  time: Connected to build server in 0.29s[0m
+2025.02.13 06:46:03 INFO  Connected to Build server: Bloop v2.0.8[0m
+2025.02.13 06:46:03 INFO  running doctor check[0m
+2025.02.13 06:46:03 INFO  java targets: space-age-build, space-age-test, space-age[0m
+Feb 13, 2025 6:46:06 AM scala.meta.internal.metals.StdReporter $anonfun$create$1
+SEVERE: Java indexer failed with and exception. (full report at: /Users/mailund/Code/exercism/scala/space-age/.metals/.reports/metals-full/2025-02-13/r_failed-idex-java_06-46-06-730.md)
+2025.02.13 06:46:14 INFO  time: indexed workspace in 11s[0m
+2025.02.13 06:46:14 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 06:46:14 INFO  compiling space-age (1 scala source)[0m
+2025.02.13 06:46:14 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 06:46:14 INFO  compiling space-age-test (1 scala source)[0m
+2025.02.13 06:46:14 INFO  time: compiled space-age in 0.21s[0m
+2025.02.13 06:46:14 INFO  time: compiled space-age-test in 0.6s[0m
+2025.02.13 06:46:14 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 06:46:14 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 06:46:14 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+Feb 13, 2025 6:46:52 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 13, 2025 6:56:47 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 13, 2025 7:14:30 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 13, 2025 7:15:06 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+2025.02.13 07:15:06 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 07:15:19 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 07:15:19 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 07:15:19 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 07:15:19 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 07:15:19 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/space-age/.metals/dap-server.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/dap-server.trace.json[0m
+2025.02.13 07:15:19 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/space-age/.metals/dap-client.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/dap-client.trace.json[0m
+2025.02.13 07:15:19 INFO  Starting debug proxy for [SpaceAgeTest()][0m
+2025.02.13 07:15:19 INFO  Initialized Scala 3 decoder in 2 milliseconds[0m
+2025.02.13 07:15:19 INFO  Trying to attach to remote debuggee VM localhost:57672 .[0m
+2025.02.13 07:15:19 INFO  Attaching to debuggee VM succeeded.[0m
+2025.02.13 07:15:21 INFO  Closing debug server tcp://0.0.0.0:57667[0m
+2025.02.13 07:15:21 INFO  Canceling debug proxy for [SpaceAgeTest()][0m
+Feb 13, 2025 7:15:55 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 13, 2025 7:15:59 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+2025.02.13 07:16:04 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 07:16:04 INFO  compiling space-age (1 scala source)[0m
+2025.02.13 07:16:04 INFO  time: compiled space-age in 0.15s[0m
+2025.02.13 07:16:06 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 07:16:06 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 07:16:06 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 07:16:06 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 07:16:06 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/space-age/.metals/dap-server.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/dap-server.trace.json[0m
+2025.02.13 07:16:06 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/space-age/.metals/dap-client.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/dap-client.trace.json[0m
+2025.02.13 07:16:06 INFO  Starting debug proxy for [SpaceAgeTest(age on Earth)][0m
+2025.02.13 07:16:06 INFO  Initialized Scala 3 decoder in 0 milliseconds[0m
+2025.02.13 07:16:06 INFO  Trying to attach to remote debuggee VM localhost:57706 .[0m
+2025.02.13 07:16:06 INFO  Attaching to debuggee VM succeeded.[0m
+2025.02.13 07:16:06 INFO  Canceling debug proxy for [SpaceAgeTest(age on Earth)][0m
+2025.02.13 07:16:06 INFO  Closing debug server tcp://0.0.0.0:57702[0m
+2025.02.13 07:16:26 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 07:16:26 INFO  compiling space-age (1 scala source)[0m
+2025.02.13 07:16:26 INFO  time: compiled space-age in 0.12s[0m
+2025.02.13 07:16:28 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 07:16:28 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 07:16:28 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 07:16:28 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 07:16:28 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/space-age/.metals/dap-server.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/dap-server.trace.json[0m
+2025.02.13 07:16:28 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/space-age/.metals/dap-client.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/dap-client.trace.json[0m
+2025.02.13 07:16:28 INFO  Starting debug proxy for [SpaceAgeTest(age on Earth)][0m
+2025.02.13 07:16:28 INFO  Initialized Scala 3 decoder in 1 millisecond[0m
+2025.02.13 07:16:28 INFO  Trying to attach to remote debuggee VM localhost:57722 .[0m
+2025.02.13 07:16:28 INFO  Attaching to debuggee VM succeeded.[0m
+2025.02.13 07:16:28 INFO  Canceling debug proxy for [SpaceAgeTest(age on Earth)][0m
+2025.02.13 07:16:28 INFO  Closing debug server tcp://0.0.0.0:57718[0m
+2025.02.13 07:17:13 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 07:17:13 INFO  compiling space-age (1 scala source)[0m
+2025.02.13 07:17:13 INFO  time: compiled space-age in 0.12s[0m
+2025.02.13 07:17:16 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 07:17:16 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 07:17:18 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 07:17:18 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 07:17:18 INFO  compiling space-age-test (1 scala source)[0m
+2025.02.13 07:17:18 INFO  time: compiled space-age-test in 0.46s[0m
+2025.02.13 07:17:19 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 07:17:19 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 07:17:19 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 07:17:19 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 07:17:19 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/space-age/.metals/dap-server.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/dap-server.trace.json[0m
+2025.02.13 07:17:19 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/space-age/.metals/dap-client.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/dap-client.trace.json[0m
+2025.02.13 07:17:20 INFO  Starting debug proxy for [SpaceAgeTest(age on Mercury)][0m
+2025.02.13 07:17:19 INFO  Initialized Scala 3 decoder in 0 milliseconds[0m
+2025.02.13 07:17:19 INFO  Trying to attach to remote debuggee VM localhost:57735 .[0m
+2025.02.13 07:17:19 INFO  Attaching to debuggee VM succeeded.[0m
+2025.02.13 07:17:20 INFO  Canceling debug proxy for [SpaceAgeTest(age on Mercury)][0m
+2025.02.13 07:17:19 INFO  Closing debug server tcp://0.0.0.0:57731[0m
+2025.02.13 07:17:29 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 07:17:42 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 07:17:42 INFO  compiling space-age (1 scala source)[0m
+2025.02.13 07:17:42 INFO  time: compiled space-age in 0.12s[0m
+2025.02.13 07:17:58 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 07:17:58 INFO  compiling space-age (1 scala source)[0m
+2025.02.13 07:17:58 INFO  time: compiled space-age in 0.11s[0m
+2025.02.13 07:17:59 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 07:17:59 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 07:17:59 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 07:17:59 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 07:17:59 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/space-age/.metals/dap-server.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/dap-server.trace.json[0m
+2025.02.13 07:17:59 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/space-age/.metals/dap-client.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/dap-client.trace.json[0m
+2025.02.13 07:17:59 INFO  Starting debug proxy for [SpaceAgeTest(age on Mercury)][0m
+2025.02.13 07:17:59 INFO  Initialized Scala 3 decoder in 1 millisecond[0m
+2025.02.13 07:17:59 INFO  Trying to attach to remote debuggee VM localhost:57751 .[0m
+2025.02.13 07:17:59 INFO  Attaching to debuggee VM succeeded.[0m
+2025.02.13 07:17:59 INFO  Canceling debug proxy for [SpaceAgeTest(age on Mercury)][0m
+2025.02.13 07:17:59 INFO  Closing debug server tcp://0.0.0.0:57747[0m
+2025.02.13 07:18:20 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 07:18:20 INFO  compiling space-age (1 scala source)[0m
+2025.02.13 07:18:20 INFO  time: compiled space-age in 0.14s[0m
+2025.02.13 07:18:22 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 07:18:22 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 07:18:24 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 07:18:24 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 07:18:24 INFO  compiling space-age-test (1 scala source)[0m
+2025.02.13 07:18:24 INFO  time: compiled space-age-test in 0.34s[0m
+2025.02.13 07:18:25 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 07:18:25 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 07:18:25 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 07:18:25 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 07:18:25 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/space-age/.metals/dap-server.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/dap-server.trace.json[0m
+2025.02.13 07:18:25 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/space-age/.metals/dap-client.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/dap-client.trace.json[0m
+2025.02.13 07:18:25 INFO  Starting debug proxy for [SpaceAgeTest(age on Venus)][0m
+2025.02.13 07:18:25 INFO  Initialized Scala 3 decoder in 0 milliseconds[0m
+2025.02.13 07:18:25 INFO  Trying to attach to remote debuggee VM localhost:57767 .[0m
+2025.02.13 07:18:25 INFO  Attaching to debuggee VM succeeded.[0m
+2025.02.13 07:18:26 INFO  Canceling debug proxy for [SpaceAgeTest(age on Venus)][0m
+2025.02.13 07:18:25 INFO  Closing debug server tcp://0.0.0.0:57763[0m
+Feb 13, 2025 7:18:33 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2025.02.13 07:19:24 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 07:19:31 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 07:19:31 INFO  compiling space-age (1 scala source)[0m
+2025.02.13 07:19:31 INFO  time: compiled space-age in 0.11s[0m
+2025.02.13 07:19:38 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 07:19:38 INFO  compiling space-age (1 scala source)[0m
+2025.02.13 07:19:38 INFO  time: compiled space-age in 0.12s[0m
+2025.02.13 07:19:55 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 07:19:55 INFO  compiling space-age (1 scala source)[0m
+2025.02.13 07:19:55 INFO  time: compiled space-age in 0.11s[0m
+2025.02.13 07:19:57 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 07:19:57 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 07:19:59 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 07:19:59 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 07:19:59 INFO  compiling space-age-test (1 scala source)[0m
+2025.02.13 07:19:59 INFO  time: compiled space-age-test in 0.36s[0m
+2025.02.13 07:19:59 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 07:19:59 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 07:19:59 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 07:19:59 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 07:20:00 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/space-age/.metals/dap-server.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/dap-server.trace.json[0m
+2025.02.13 07:20:00 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/space-age/.metals/dap-client.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/dap-client.trace.json[0m
+2025.02.13 07:20:00 INFO  Starting debug proxy for [SpaceAgeTest(age on Mars)][0m
+2025.02.13 07:20:00 INFO  Initialized Scala 3 decoder in 0 milliseconds[0m
+2025.02.13 07:20:00 INFO  Trying to attach to remote debuggee VM localhost:57809 .[0m
+2025.02.13 07:20:00 INFO  Attaching to debuggee VM succeeded.[0m
+2025.02.13 07:20:01 INFO  Canceling debug proxy for [SpaceAgeTest(age on Mars)][0m
+2025.02.13 07:20:00 INFO  Closing debug server tcp://0.0.0.0:57805[0m
+2025.02.13 07:20:06 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 07:20:06 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 07:20:06 INFO  compiling space-age-test (1 scala source)[0m
+2025.02.13 07:20:06 INFO  time: compiled space-age-test in 0.4s[0m
+2025.02.13 07:20:07 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 07:20:07 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 07:20:07 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 07:20:07 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 07:20:07 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/space-age/.metals/dap-server.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/dap-server.trace.json[0m
+2025.02.13 07:20:07 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/space-age/.metals/dap-client.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/dap-client.trace.json[0m
+2025.02.13 07:20:07 INFO  Starting debug proxy for [SpaceAgeTest(age on Jupiter)][0m
+2025.02.13 07:20:07 INFO  Initialized Scala 3 decoder in 0 milliseconds[0m
+2025.02.13 07:20:07 INFO  Trying to attach to remote debuggee VM localhost:57821 .[0m
+2025.02.13 07:20:07 INFO  Attaching to debuggee VM succeeded.[0m
+2025.02.13 07:20:08 INFO  Canceling debug proxy for [SpaceAgeTest(age on Jupiter)][0m
+2025.02.13 07:20:07 INFO  Closing debug server tcp://0.0.0.0:57817[0m
+2025.02.13 07:20:13 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 07:20:13 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 07:20:13 INFO  compiling space-age-test (1 scala source)[0m
+2025.02.13 07:20:13 INFO  time: compiled space-age-test in 0.34s[0m
+2025.02.13 07:20:14 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 07:20:14 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 07:20:14 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 07:20:14 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 07:20:14 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/space-age/.metals/dap-server.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/dap-server.trace.json[0m
+2025.02.13 07:20:14 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/space-age/.metals/dap-client.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/dap-client.trace.json[0m
+2025.02.13 07:20:14 INFO  Starting debug proxy for [SpaceAgeTest(age on Saturn)][0m
+2025.02.13 07:20:14 INFO  Initialized Scala 3 decoder in 1 millisecond[0m
+2025.02.13 07:20:14 INFO  Trying to attach to remote debuggee VM localhost:57833 .[0m
+2025.02.13 07:20:14 INFO  Attaching to debuggee VM succeeded.[0m
+2025.02.13 07:20:15 INFO  Canceling debug proxy for [SpaceAgeTest(age on Saturn)][0m
+2025.02.13 07:20:14 INFO  Closing debug server tcp://0.0.0.0:57829[0m
+2025.02.13 07:20:20 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 07:20:20 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 07:20:20 INFO  compiling space-age-test (1 scala source)[0m
+2025.02.13 07:20:20 INFO  time: compiled space-age-test in 0.44s[0m
+2025.02.13 07:20:21 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 07:20:21 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 07:20:21 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 07:20:21 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 07:20:21 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/space-age/.metals/dap-server.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/dap-server.trace.json[0m
+2025.02.13 07:20:21 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/space-age/.metals/dap-client.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/dap-client.trace.json[0m
+2025.02.13 07:20:21 INFO  Starting debug proxy for [SpaceAgeTest(age on Uranus)][0m
+2025.02.13 07:20:21 INFO  Initialized Scala 3 decoder in 0 milliseconds[0m
+2025.02.13 07:20:21 INFO  Trying to attach to remote debuggee VM localhost:57848 .[0m
+2025.02.13 07:20:21 INFO  Attaching to debuggee VM succeeded.[0m
+2025.02.13 07:20:22 INFO  Canceling debug proxy for [SpaceAgeTest(age on Uranus)][0m
+2025.02.13 07:20:21 INFO  Closing debug server tcp://0.0.0.0:57840[0m
+2025.02.13 07:20:28 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 07:20:28 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 07:20:28 INFO  compiling space-age-test (1 scala source)[0m
+2025.02.13 07:20:28 INFO  time: compiled space-age-test in 0.33s[0m
+2025.02.13 07:20:30 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 07:20:30 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 07:20:30 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 07:20:30 WARN  Bloop is running with 17.0.14 but your code requires 23.0.2 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2025.02.13 07:20:30 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/space-age/.metals/dap-server.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/dap-server.trace.json[0m
+2025.02.13 07:20:30 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mailund/Code/exercism/scala/space-age/.metals/dap-client.trace.json or /Users/mailund/Library/Caches/org.scalameta.metals/dap-client.trace.json[0m
+2025.02.13 07:20:30 INFO  Starting debug proxy for [SpaceAgeTest(age on Neptune)][0m
+2025.02.13 07:20:30 INFO  Initialized Scala 3 decoder in 0 milliseconds[0m
+2025.02.13 07:20:30 INFO  Trying to attach to remote debuggee VM localhost:57863 .[0m
+2025.02.13 07:20:30 INFO  Attaching to debuggee VM succeeded.[0m
+2025.02.13 07:20:31 INFO  Canceling debug proxy for [SpaceAgeTest(age on Neptune)][0m
+2025.02.13 07:20:30 INFO  Closing debug server tcp://0.0.0.0:57859[0m
+Feb 13, 2025 7:21:02 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 13, 2025 7:21:16 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 13, 2025 7:21:26 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 13, 2025 7:21:26 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 13, 2025 7:21:39 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 13, 2025 7:22:36 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+2025.02.13 07:22:40 INFO  Shutting down server[0m
+2025.02.13 07:22:40 INFO  shutting down Metals[0m
+2025.02.13 07:22:40 INFO  Shut down connection with build server.[0m
+2025.02.13 07:22:40 INFO  Shut down connection with build server.[0m
+2025.02.13 07:22:40 INFO  Exiting server[0m
