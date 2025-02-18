@@ -1,0 +1,12 @@
+2025-02-18T18:51:10+00:00 Thomass-Mini.home#02 I: Start test hamming tests:1:single letter identical strands.
+2025-02-18T18:51:10+00:00 Thomass-Mini.home#02 I: Test hamming tests:1:single letter identical strands is successful.
+2025-02-18T18:51:10+00:00 Thomass-Mini.home#02 I: End test hamming tests:1:single letter identical strands.
+2025-02-18T18:51:10+00:00 Thomass-Mini.home#02 I: Start test hamming tests:3:long identical strands.
+2025-02-18T18:51:10+00:00 Thomass-Mini.home#02 I: Test hamming tests:3:long identical strands is successful.
+2025-02-18T18:51:10+00:00 Thomass-Mini.home#02 I: End test hamming tests:3:long identical strands.
+2025-02-18T18:51:10+00:00 Thomass-Mini.home#02 I: Start test hamming tests:5:disallow first strand longer.
+2025-02-18T18:51:10+00:00 Thomass-Mini.home#02 I: Test hamming tests:5:disallow first strand longer is successful.
+2025-02-18T18:51:10+00:00 Thomass-Mini.home#02 I: End test hamming tests:5:disallow first strand longer.
+2025-02-18T18:51:10+00:00 Thomass-Mini.home#02 I: Start test hamming tests:7:disallow left empty strand.
+2025-02-18T18:51:10+00:00 Thomass-Mini.home#02 I: Test hamming tests:7:disallow left empty strand is successful.
+2025-02-18T18:51:10+00:00 Thomass-Mini.home#02 I: End test hamming tests:7:disallow left empty strand.
