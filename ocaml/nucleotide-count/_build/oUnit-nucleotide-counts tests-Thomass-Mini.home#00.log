@@ -1,0 +1,147 @@
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: Runner: processes
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: Chooser: simple
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: Configuration suite_name = "nucleotide-counts tests"
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: Configuration cache_filename = "/Users/mailund/Code/exercism/ocaml/nucleotide-count/_build/oUnit-$(suite_name).cache"
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: Configuration run_gc_full_major = "true"
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: Configuration display = "true"
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: Configuration results_style_1_X = "false"
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: Configuration testdata_dir = "none"
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: Configuration health_check_interval = "1."
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: Configuration verbose = "false"
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: Configuration chooser = "simple"
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: Configuration output_html_dir = "none"
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: Configuration processes_kill_period = "5."
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: Configuration runner = "processes"
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: Configuration shards = "2"
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: Configuration processes_grace_period = "5."
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: Configuration log_encoding = "utf-8"
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: Configuration output_junit_file = "none"
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: Configuration ci = "false"
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: Configuration output_file = "/Users/mailund/Code/exercism/ocaml/nucleotide-count/_build/oUnit-$(suite_name)-$(shard_id).log"
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: Using 2 workers maximum.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: Starting worker number Thomass-Mini.home#01.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: Worker Thomass-Mini.home#01 started.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: Starting worker number Thomass-Mini.home#02.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: Worker Thomass-Mini.home#02 started.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: 2 tests running: nucleotide-counts tests:1:Non-empty DNA string has no invalid nucleotides, nucleotide-counts tests:0:Empty DNA string has no invalid nucleotides.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#01 I: Start test nucleotide-counts tests:0:Empty DNA string has no invalid nucleotides.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: 2 tests running: nucleotide-counts tests:1:Non-empty DNA string has no invalid nucleotides, nucleotide-counts tests:0:Empty DNA string has no invalid nucleotides.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#02 I: Start test nucleotide-counts tests:1:Non-empty DNA string has no invalid nucleotides.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: 2 tests running: nucleotide-counts tests:1:Non-empty DNA string has no invalid nucleotides, nucleotide-counts tests:0:Empty DNA string has no invalid nucleotides.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#01 I: Test nucleotide-counts tests:0:Empty DNA string has no invalid nucleotides is successful.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: 2 tests running: nucleotide-counts tests:1:Non-empty DNA string has no invalid nucleotides, nucleotide-counts tests:0:Empty DNA string has no invalid nucleotides.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#01 I: End test nucleotide-counts tests:0:Empty DNA string has no invalid nucleotides.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: 2 tests running: nucleotide-counts tests:1:Non-empty DNA string has no invalid nucleotides, nucleotide-counts tests:0:Empty DNA string has no invalid nucleotides.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: 2 tests running: nucleotide-counts tests:2:Invalid DNA string has no invalid nucleotides, nucleotide-counts tests:1:Non-empty DNA string has no invalid nucleotides.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#02 I: Test nucleotide-counts tests:1:Non-empty DNA string has no invalid nucleotides is successful.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#01 I: Start test nucleotide-counts tests:2:Invalid DNA string has no invalid nucleotides.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: 2 tests running: nucleotide-counts tests:2:Invalid DNA string has no invalid nucleotides, nucleotide-counts tests:1:Non-empty DNA string has no invalid nucleotides.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#02 I: End test nucleotide-counts tests:1:Non-empty DNA string has no invalid nucleotides.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: 2 tests running: nucleotide-counts tests:2:Invalid DNA string has no invalid nucleotides, nucleotide-counts tests:1:Non-empty DNA string has no invalid nucleotides.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: 2 tests running: nucleotide-counts tests:3:Empty DNA string has zero Adenine nucleotides, nucleotide-counts tests:2:Invalid DNA string has no invalid nucleotides.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#02 I: Start test nucleotide-counts tests:3:Empty DNA string has zero Adenine nucleotides.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: 2 tests running: nucleotide-counts tests:3:Empty DNA string has zero Adenine nucleotides, nucleotide-counts tests:2:Invalid DNA string has no invalid nucleotides.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#01 I: Test nucleotide-counts tests:2:Invalid DNA string has no invalid nucleotides is successful.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: 2 tests running: nucleotide-counts tests:3:Empty DNA string has zero Adenine nucleotides, nucleotide-counts tests:2:Invalid DNA string has no invalid nucleotides.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#01 I: End test nucleotide-counts tests:2:Invalid DNA string has no invalid nucleotides.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: 2 tests running: nucleotide-counts tests:3:Empty DNA string has zero Adenine nucleotides, nucleotide-counts tests:2:Invalid DNA string has no invalid nucleotides.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: 2 tests running: nucleotide-counts tests:4:DNA string with one Adenine nucleotide, nucleotide-counts tests:3:Empty DNA string has zero Adenine nucleotides.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#02 I: Test nucleotide-counts tests:3:Empty DNA string has zero Adenine nucleotides is successful.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#01 I: Start test nucleotide-counts tests:4:DNA string with one Adenine nucleotide.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: 2 tests running: nucleotide-counts tests:4:DNA string with one Adenine nucleotide, nucleotide-counts tests:3:Empty DNA string has zero Adenine nucleotides.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#02 I: End test nucleotide-counts tests:3:Empty DNA string has zero Adenine nucleotides.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: 2 tests running: nucleotide-counts tests:4:DNA string with one Adenine nucleotide, nucleotide-counts tests:3:Empty DNA string has zero Adenine nucleotides.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: 2 tests running: nucleotide-counts tests:5:DNA string with five Cytosine nucleotides, nucleotide-counts tests:4:DNA string with one Adenine nucleotide.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#02 I: Start test nucleotide-counts tests:5:DNA string with five Cytosine nucleotides.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: 2 tests running: nucleotide-counts tests:5:DNA string with five Cytosine nucleotides, nucleotide-counts tests:4:DNA string with one Adenine nucleotide.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#01 I: Test nucleotide-counts tests:4:DNA string with one Adenine nucleotide is successful.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: 2 tests running: nucleotide-counts tests:5:DNA string with five Cytosine nucleotides, nucleotide-counts tests:4:DNA string with one Adenine nucleotide.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#01 I: End test nucleotide-counts tests:4:DNA string with one Adenine nucleotide.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: 2 tests running: nucleotide-counts tests:5:DNA string with five Cytosine nucleotides, nucleotide-counts tests:4:DNA string with one Adenine nucleotide.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: 2 tests running: nucleotide-counts tests:6:DNA string with two Guanine nucleotides, nucleotide-counts tests:5:DNA string with five Cytosine nucleotides.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#02 I: Test nucleotide-counts tests:5:DNA string with five Cytosine nucleotides is successful.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: 2 tests running: nucleotide-counts tests:6:DNA string with two Guanine nucleotides, nucleotide-counts tests:5:DNA string with five Cytosine nucleotides.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#02 I: End test nucleotide-counts tests:5:DNA string with five Cytosine nucleotides.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#01 I: Start test nucleotide-counts tests:6:DNA string with two Guanine nucleotides.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: 2 tests running: nucleotide-counts tests:6:DNA string with two Guanine nucleotides, nucleotide-counts tests:5:DNA string with five Cytosine nucleotides.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: 2 tests running: nucleotide-counts tests:7:DNA string with three Thymine nucleotides, nucleotide-counts tests:6:DNA string with two Guanine nucleotides.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#02 I: Start test nucleotide-counts tests:7:DNA string with three Thymine nucleotides.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: 2 tests running: nucleotide-counts tests:7:DNA string with three Thymine nucleotides, nucleotide-counts tests:6:DNA string with two Guanine nucleotides.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#01 I: Test nucleotide-counts tests:6:DNA string with two Guanine nucleotides is successful.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: 2 tests running: nucleotide-counts tests:7:DNA string with three Thymine nucleotides, nucleotide-counts tests:6:DNA string with two Guanine nucleotides.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#01 I: End test nucleotide-counts tests:6:DNA string with two Guanine nucleotides.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: 2 tests running: nucleotide-counts tests:7:DNA string with three Thymine nucleotides, nucleotide-counts tests:6:DNA string with two Guanine nucleotides.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: 2 tests running: nucleotide-counts tests:8:Invalid DNA string has no nucleotides, nucleotide-counts tests:7:DNA string with three Thymine nucleotides.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#02 I: Test nucleotide-counts tests:7:DNA string with three Thymine nucleotides is successful.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#01 I: Start test nucleotide-counts tests:8:Invalid DNA string has no nucleotides.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: 2 tests running: nucleotide-counts tests:8:Invalid DNA string has no nucleotides, nucleotide-counts tests:7:DNA string with three Thymine nucleotides.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#02 I: End test nucleotide-counts tests:7:DNA string with three Thymine nucleotides.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: 2 tests running: nucleotide-counts tests:8:Invalid DNA string has no nucleotides, nucleotide-counts tests:7:DNA string with three Thymine nucleotides.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: 2 tests running: nucleotide-counts tests:9:Empty DNA string has zero nucleotides, nucleotide-counts tests:8:Invalid DNA string has no nucleotides.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#02 I: Start test nucleotide-counts tests:9:Empty DNA string has zero nucleotides.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: 2 tests running: nucleotide-counts tests:9:Empty DNA string has zero nucleotides, nucleotide-counts tests:8:Invalid DNA string has no nucleotides.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#01 I: Test nucleotide-counts tests:8:Invalid DNA string has no nucleotides is successful.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: 2 tests running: nucleotide-counts tests:9:Empty DNA string has zero nucleotides, nucleotide-counts tests:8:Invalid DNA string has no nucleotides.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#01 I: End test nucleotide-counts tests:8:Invalid DNA string has no nucleotides.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: 2 tests running: nucleotide-counts tests:9:Empty DNA string has zero nucleotides, nucleotide-counts tests:8:Invalid DNA string has no nucleotides.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: 2 tests running: nucleotide-counts tests:10:DNA string with two Adenine nucleotides, nucleotide-counts tests:9:Empty DNA string has zero nucleotides.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#02 I: Test nucleotide-counts tests:9:Empty DNA string has zero nucleotides is successful.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: 2 tests running: nucleotide-counts tests:10:DNA string with two Adenine nucleotides, nucleotide-counts tests:9:Empty DNA string has zero nucleotides.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#02 I: End test nucleotide-counts tests:9:Empty DNA string has zero nucleotides.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#01 I: Start test nucleotide-counts tests:10:DNA string with two Adenine nucleotides.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: 2 tests running: nucleotide-counts tests:10:DNA string with two Adenine nucleotides, nucleotide-counts tests:9:Empty DNA string has zero nucleotides.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: 2 tests running: nucleotide-counts tests:11:DNA string with one Adenine, two Cytosine nucleotides, nucleotide-counts tests:10:DNA string with two Adenine nucleotides.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#02 I: Start test nucleotide-counts tests:11:DNA string with one Adenine, two Cytosine nucleotides.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: 2 tests running: nucleotide-counts tests:11:DNA string with one Adenine, two Cytosine nucleotides, nucleotide-counts tests:10:DNA string with two Adenine nucleotides.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#01 I: Test nucleotide-counts tests:10:DNA string with two Adenine nucleotides is successful.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: 2 tests running: nucleotide-counts tests:11:DNA string with one Adenine, two Cytosine nucleotides, nucleotide-counts tests:10:DNA string with two Adenine nucleotides.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#01 I: End test nucleotide-counts tests:10:DNA string with two Adenine nucleotides.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: 2 tests running: nucleotide-counts tests:11:DNA string with one Adenine, two Cytosine nucleotides, nucleotide-counts tests:10:DNA string with two Adenine nucleotides.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: Still 2 tests running : nucleotide-counts tests:12:DNA string with one Adenine, two Cytosine, three Guanine, four Thymine nucleotides, nucleotide-counts tests:11:DNA string with one Adenine, two Cytosine nucleotides.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: 2 tests running: nucleotide-counts tests:12:DNA string with one Adenine, two Cytosine, three Guanine, four Thymine nucleotides, nucleotide-counts tests:11:DNA string with one Adenine, two Cytosine nucleotides.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#02 I: Test nucleotide-counts tests:11:DNA string with one Adenine, two Cytosine nucleotides is successful.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#01 I: Start test nucleotide-counts tests:12:DNA string with one Adenine, two Cytosine, three Guanine, four Thymine nucleotides.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: Still 2 tests running : nucleotide-counts tests:12:DNA string with one Adenine, two Cytosine, three Guanine, four Thymine nucleotides, nucleotide-counts tests:11:DNA string with one Adenine, two Cytosine nucleotides.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: 2 tests running: nucleotide-counts tests:12:DNA string with one Adenine, two Cytosine, three Guanine, four Thymine nucleotides, nucleotide-counts tests:11:DNA string with one Adenine, two Cytosine nucleotides.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#02 I: End test nucleotide-counts tests:11:DNA string with one Adenine, two Cytosine nucleotides.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: Still 2 tests running : nucleotide-counts tests:12:DNA string with one Adenine, two Cytosine, three Guanine, four Thymine nucleotides, nucleotide-counts tests:11:DNA string with one Adenine, two Cytosine nucleotides.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: 2 tests running: nucleotide-counts tests:12:DNA string with one Adenine, two Cytosine, three Guanine, four Thymine nucleotides, nucleotide-counts tests:11:DNA string with one Adenine, two Cytosine nucleotides.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: Still 1 tests running : nucleotide-counts tests:12:DNA string with one Adenine, two Cytosine, three Guanine, four Thymine nucleotides.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: 1 tests running: nucleotide-counts tests:12:DNA string with one Adenine, two Cytosine, three Guanine, four Thymine nucleotides.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#01 I: Test nucleotide-counts tests:12:DNA string with one Adenine, two Cytosine, three Guanine, four Thymine nucleotides is successful.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: Still 1 tests running : nucleotide-counts tests:12:DNA string with one Adenine, two Cytosine, three Guanine, four Thymine nucleotides.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: 1 tests running: nucleotide-counts tests:12:DNA string with one Adenine, two Cytosine, three Guanine, four Thymine nucleotides.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#01 I: End test nucleotide-counts tests:12:DNA string with one Adenine, two Cytosine, three Guanine, four Thymine nucleotides.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: Still 1 tests running : nucleotide-counts tests:12:DNA string with one Adenine, two Cytosine, three Guanine, four Thymine nucleotides.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: 1 tests running: nucleotide-counts tests:12:DNA string with one Adenine, two Cytosine, three Guanine, four Thymine nucleotides.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: 0 tests running: .
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: Worker Thomass-Mini.home#02 has ended.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: Worker Thomass-Mini.home#01 has ended.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: Used 2 worker during test execution.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: Run 7 tests with shard Thomass-Mini.home#01.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: Run 6 tests with shard Thomass-Mini.home#02.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: Check health of shard Thomass-Mini.home#01, 1 times.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: Check health of shard Thomass-Mini.home#02, 4 times.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: ==============
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: Summary:
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: Test nucleotide-counts tests:12:DNA string with one Adenine, two Cytosine, three Guanine, four Thymine nucleotides is successful.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: Test nucleotide-counts tests:11:DNA string with one Adenine, two Cytosine nucleotides is successful.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: Test nucleotide-counts tests:10:DNA string with two Adenine nucleotides is successful.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: Test nucleotide-counts tests:9:Empty DNA string has zero nucleotides is successful.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: Test nucleotide-counts tests:8:Invalid DNA string has no nucleotides is successful.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: Test nucleotide-counts tests:7:DNA string with three Thymine nucleotides is successful.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: Test nucleotide-counts tests:6:DNA string with two Guanine nucleotides is successful.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: Test nucleotide-counts tests:5:DNA string with five Cytosine nucleotides is successful.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: Test nucleotide-counts tests:4:DNA string with one Adenine nucleotide is successful.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: Test nucleotide-counts tests:3:Empty DNA string has zero Adenine nucleotides is successful.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: Test nucleotide-counts tests:2:Invalid DNA string has no invalid nucleotides is successful.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: Test nucleotide-counts tests:1:Non-empty DNA string has no invalid nucleotides is successful.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: Test nucleotide-counts tests:0:Empty DNA string has no invalid nucleotides is successful.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: Ran: 13 tests in: 0.11 seconds.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: Cases: 13.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: Tried: 13.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: Errors: 0.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: Failures: 0.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: Skip: 0.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: Todo: 0.
+2025-02-19T13:51:01+00:00 Thomass-Mini.home#00 I: Timeout: 0.
