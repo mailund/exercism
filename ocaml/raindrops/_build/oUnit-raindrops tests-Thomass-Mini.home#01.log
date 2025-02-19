@@ -1,0 +1,27 @@
+2025-02-19T18:43:13+00:00 Thomass-Mini.home#01 I: Start test raindrops tests:0:the sound for 1 is 1.
+2025-02-19T18:43:13+00:00 Thomass-Mini.home#01 I: Test raindrops tests:0:the sound for 1 is 1 is successful.
+2025-02-19T18:43:13+00:00 Thomass-Mini.home#01 I: End test raindrops tests:0:the sound for 1 is 1.
+2025-02-19T18:43:13+00:00 Thomass-Mini.home#01 I: Start test raindrops tests:2:the sound for 5 is Plang.
+2025-02-19T18:43:13+00:00 Thomass-Mini.home#01 I: Test raindrops tests:2:the sound for 5 is Plang is successful.
+2025-02-19T18:43:13+00:00 Thomass-Mini.home#01 I: End test raindrops tests:2:the sound for 5 is Plang.
+2025-02-19T18:43:13+00:00 Thomass-Mini.home#01 I: Start test raindrops tests:4:the sound for 6 is Pling as it has a factor 3.
+2025-02-19T18:43:13+00:00 Thomass-Mini.home#01 I: Test raindrops tests:4:the sound for 6 is Pling as it has a factor 3 is successful.
+2025-02-19T18:43:13+00:00 Thomass-Mini.home#01 I: End test raindrops tests:4:the sound for 6 is Pling as it has a factor 3.
+2025-02-19T18:43:13+00:00 Thomass-Mini.home#01 I: Start test raindrops tests:6:the sound for 9 is Pling as it has a factor 3.
+2025-02-19T18:43:13+00:00 Thomass-Mini.home#01 I: Test raindrops tests:6:the sound for 9 is Pling as it has a factor 3 is successful.
+2025-02-19T18:43:13+00:00 Thomass-Mini.home#01 I: End test raindrops tests:6:the sound for 9 is Pling as it has a factor 3.
+2025-02-19T18:43:13+00:00 Thomass-Mini.home#01 I: Start test raindrops tests:8:the sound for 14 is Plong as it has a factor of 7.
+2025-02-19T18:43:13+00:00 Thomass-Mini.home#01 I: Test raindrops tests:8:the sound for 14 is Plong as it has a factor of 7 is successful.
+2025-02-19T18:43:13+00:00 Thomass-Mini.home#01 I: End test raindrops tests:8:the sound for 14 is Plong as it has a factor of 7.
+2025-02-19T18:43:13+00:00 Thomass-Mini.home#01 I: Start test raindrops tests:11:the sound for 25 is Plang as it has a factor 5.
+2025-02-19T18:43:13+00:00 Thomass-Mini.home#01 I: Test raindrops tests:11:the sound for 25 is Plang as it has a factor 5 is successful.
+2025-02-19T18:43:13+00:00 Thomass-Mini.home#01 I: End test raindrops tests:11:the sound for 25 is Plang as it has a factor 5.
+2025-02-19T18:43:13+00:00 Thomass-Mini.home#01 I: Start test raindrops tests:13:the sound for 35 is PlangPlong as it has factors 5 and 7.
+2025-02-19T18:43:13+00:00 Thomass-Mini.home#01 I: Test raindrops tests:13:the sound for 35 is PlangPlong as it has factors 5 and 7 is successful.
+2025-02-19T18:43:13+00:00 Thomass-Mini.home#01 I: End test raindrops tests:13:the sound for 35 is PlangPlong as it has factors 5 and 7.
+2025-02-19T18:43:13+00:00 Thomass-Mini.home#01 I: Start test raindrops tests:15:the sound for 52 is 52.
+2025-02-19T18:43:13+00:00 Thomass-Mini.home#01 I: Test raindrops tests:15:the sound for 52 is 52 is successful.
+2025-02-19T18:43:13+00:00 Thomass-Mini.home#01 I: End test raindrops tests:15:the sound for 52 is 52.
+2025-02-19T18:43:13+00:00 Thomass-Mini.home#01 I: Start test raindrops tests:17:the sound for 3125 is Plang as it has a factor 5.
+2025-02-19T18:43:13+00:00 Thomass-Mini.home#01 I: Test raindrops tests:17:the sound for 3125 is Plang as it has a factor 5 is successful.
+2025-02-19T18:43:13+00:00 Thomass-Mini.home#01 I: End test raindrops tests:17:the sound for 3125 is Plang as it has a factor 5.
