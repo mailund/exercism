@@ -1,0 +1,27 @@
+2025-02-23T11:57:49+00:00 Thomass-Mini.home#01 I: Start test binary-search-tree tests:0:data is retained.
+2025-02-23T11:57:49+00:00 Thomass-Mini.home#01 I: Test binary-search-tree tests:0:data is retained is successful.
+2025-02-23T11:57:49+00:00 Thomass-Mini.home#01 I: End test binary-search-tree tests:0:data is retained.
+2025-02-23T11:57:49+00:00 Thomass-Mini.home#01 I: Start test binary-search-tree tests:2:smaller number at left node 2.
+2025-02-23T11:57:49+00:00 Thomass-Mini.home#01 I: Test binary-search-tree tests:2:smaller number at left node 2 is successful.
+2025-02-23T11:57:49+00:00 Thomass-Mini.home#01 I: End test binary-search-tree tests:2:smaller number at left node 2.
+2025-02-23T11:57:49+00:00 Thomass-Mini.home#01 I: Start test binary-search-tree tests:4:same number at left node 2.
+2025-02-23T11:57:49+00:00 Thomass-Mini.home#01 I: Test binary-search-tree tests:4:same number at left node 2 is successful.
+2025-02-23T11:57:49+00:00 Thomass-Mini.home#01 I: End test binary-search-tree tests:4:same number at left node 2.
+2025-02-23T11:57:49+00:00 Thomass-Mini.home#01 I: Start test binary-search-tree tests:6:greater number at right node 2.
+2025-02-23T11:57:49+00:00 Thomass-Mini.home#01 I: Test binary-search-tree tests:6:greater number at right node 2 is successful.
+2025-02-23T11:57:49+00:00 Thomass-Mini.home#01 I: End test binary-search-tree tests:6:greater number at right node 2.
+2025-02-23T11:57:49+00:00 Thomass-Mini.home#01 I: Start test binary-search-tree tests:8:can create complex tree 2.
+2025-02-23T11:57:49+00:00 Thomass-Mini.home#01 I: Test binary-search-tree tests:8:can create complex tree 2 is successful.
+2025-02-23T11:57:49+00:00 Thomass-Mini.home#01 I: End test binary-search-tree tests:8:can create complex tree 2.
+2025-02-23T11:57:49+00:00 Thomass-Mini.home#01 I: Start test binary-search-tree tests:10:can create complex tree 4.
+2025-02-23T11:57:49+00:00 Thomass-Mini.home#01 I: Test binary-search-tree tests:10:can create complex tree 4 is successful.
+2025-02-23T11:57:49+00:00 Thomass-Mini.home#01 I: End test binary-search-tree tests:10:can create complex tree 4.
+2025-02-23T11:57:49+00:00 Thomass-Mini.home#01 I: Start test binary-search-tree tests:13:can create complex tree 7.
+2025-02-23T11:57:49+00:00 Thomass-Mini.home#01 I: Test binary-search-tree tests:13:can create complex tree 7 is successful.
+2025-02-23T11:57:49+00:00 Thomass-Mini.home#01 I: End test binary-search-tree tests:13:can create complex tree 7.
+2025-02-23T11:57:49+00:00 Thomass-Mini.home#01 I: Start test binary-search-tree tests:15:can sort if second number is smaller than first.
+2025-02-23T11:57:49+00:00 Thomass-Mini.home#01 I: Test binary-search-tree tests:15:can sort if second number is smaller than first is successful.
+2025-02-23T11:57:49+00:00 Thomass-Mini.home#01 I: End test binary-search-tree tests:15:can sort if second number is smaller than first.
+2025-02-23T11:57:49+00:00 Thomass-Mini.home#01 I: Start test binary-search-tree tests:17:can sort if second number is greater than first.
+2025-02-23T11:57:49+00:00 Thomass-Mini.home#01 I: Test binary-search-tree tests:17:can sort if second number is greater than first is successful.
+2025-02-23T11:57:49+00:00 Thomass-Mini.home#01 I: End test binary-search-tree tests:17:can sort if second number is greater than first.
